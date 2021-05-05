@@ -15,4 +15,4 @@ For analytical uses cases it is wise to follow a structured approach like Micros
 
 Most important: A detailed description of your approach, work, findings and concrete achievements towards the use case. Here you should accumulate the largest part of your writing.
 
-A summary if the targets have been achieved, and if not - and whatever the reason is - why it wasn't achieved.
+A summary if the targets have been achieved, and if not - and whatever the reason is - why it wasn't achieved
