@@ -1,8 +1,11 @@
 # 009 - Personal Alexa-like Speech Service
 Summary Implement an Alexa alike speech service in Python. natural language processing.
-BAA Projekt
+
+
 Kim Celine Marzi [843594]
+
 Melina Bröcker []
+
 Maximilian Schmitt [872765]
 
 text images, tables, links, code fragments that contains/ explains: 
