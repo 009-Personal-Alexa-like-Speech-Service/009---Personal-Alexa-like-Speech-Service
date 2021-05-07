@@ -5,6 +5,7 @@
 - Kim Celine Marzi [843594]
 - Melina Bröcker []
 - Maximilian Schmitt [872765]
+- Thomas Zeutschler
 
 - - - -
 
