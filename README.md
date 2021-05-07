@@ -6,6 +6,9 @@
 - Melina Bröcker []
 - Maximilian Schmitt [872765]
 
+- - - -
+
+
 text images, tables, links, code fragments that contains/ explains: 
 - What was the task to be accomplished? What was intended to achieve? Sometime analytics projects fail or end up with the insight that the user problem can not be solved. This is also a valid and valuable result.
 
@@ -18,4 +21,3 @@ Most important: A detailed description of your approach, work, findings and conc
 
 A summary if the targets have been achieved, and if not - and whatever the reason is - why it wasn't achieved
 
-- - - -
