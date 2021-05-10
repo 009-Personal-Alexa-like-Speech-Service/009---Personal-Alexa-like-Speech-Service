@@ -1,1 +1,19 @@
+class WaitTimeoutError(Exception): pass
 
+class RequestError(Exception): pass
+
+class UnknownValueError(Exception): pass
+
+class AudioSource(object): pass
+
+class Microphone(AudioSource): pass
+
+class MicrophoneStream(object): pass
+
+class AudioFile(AudioSource): pass
+
+class AudioFileStream(object): pass
+
+class AudioData(object): pass
+
+class Recognizer(AudioSource): pass
