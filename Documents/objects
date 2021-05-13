@@ -13,4 +13,4 @@ class Recognizer(AudioSource): pass
 
 
 AudioData(object): pass
-creates an object for text-to-speec-proccessing 
+creates an object for text-to-speech-proccessing 
