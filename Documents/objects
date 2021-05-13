@@ -1,19 +1,14 @@
-class WaitTimeoutError(Exception): pass
+# Possible relevant objects
 
-class RequestError(Exception): pass
-
-class UnknownValueError(Exception): pass
+class Error(Exception): pass
 
 class AudioSource(object): pass
 
 class Microphone(AudioSource): pass
-
-class MicrophoneStream(object): pass
-
+reates a new ``Microphone`` instance, which represents a physical microphone on the computer. Subclass of ``AudioSource``.
 class AudioFile(AudioSource): pass
 
-class AudioFileStream(object): pass
-
-class AudioData(object): pass
-
 class Recognizer(AudioSource): pass
+
+AudioData(object): pass
+
