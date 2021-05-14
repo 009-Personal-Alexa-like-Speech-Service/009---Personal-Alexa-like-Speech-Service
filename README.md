@@ -15,6 +15,9 @@
 ## 2) Methological approach
 ## 3) Findings and achievements
 - Detailed description of approach, work, findings, concrete achievements 
+
+problems with Pyaudio and how to solve 
+
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
 
