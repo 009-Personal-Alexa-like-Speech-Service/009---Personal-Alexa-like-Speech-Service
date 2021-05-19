@@ -61,8 +61,18 @@ On other POSIX-based systems, simply use the packages provided on the downloads 
 ## 3) Findings and achievements
 - Detailed description of approach, work, findings, concrete achievements 
 
+1. Problems 
+1.1 Installation 
+
+There was a problem to install the package "PyAudio". We found two different solutions for Mac and Windows to solve the shown error. 
 problems with Pyaudio and how to solve 
 
+1.)For Windows type the following command into the Pycharm console:
+- pip install pipwin
+- pipwin install pyaudio
+
+
+2.)
 
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
