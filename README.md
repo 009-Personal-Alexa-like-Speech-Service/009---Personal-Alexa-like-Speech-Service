@@ -42,10 +42,25 @@ Background noise – Differentiating the speech from the background noise is ver
 
 
 ## 2) Methological approach
+
+install libraries 
+- speech recognition 
+- PyAudio
+-> If you want to use audio input from microphones, PyAudio is also necessary. If not installed, the library will still work, but Microphone will be undefined.
+
+The official PyAudio builds seem to be broken on Windows. As a result, in the installers folder you will find unofficial PyAudio builds for Windows that actually work. Run the installer corresponding to your Python version to install PyAudio.
+
+On Debain-based distributions such as Ubuntu, you can generally install PyAudio by running sudo apt-get install python-pyaudio python3-pyaudio, which will install it for both Python 2 and Python 3.
+
+On other POSIX-based systems, simply use the packages provided on the downloads page linked above, or compile and install it from source.
+
+
+
 ## 3) Findings and achievements
 - Detailed description of approach, work, findings, concrete achievements 
 
 problems with Pyaudio and how to solve 
+
 
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
