@@ -47,6 +47,8 @@ install libraries
 - speech recognition 
 - PyAudio
 -> If you want to use audio input from microphones, PyAudio is also necessary. If not installed, the library will still work, but Microphone will be undefined.
+- save audio input as a file
+- process audio input to text
 
 The official PyAudio builds seem to be broken on Windows. As a result, in the installers folder you will find unofficial PyAudio builds for Windows that actually work. Run the installer corresponding to your Python version to install PyAudio.
 
