@@ -22,6 +22,7 @@
   You: No problem, I'm a Python hero!
 
 - Features:
+
    --> weather „Hello Hal, hows the weather?“ Wetterdatenbank einfügen  
    --> Open Browser (play a youtube video)  
    --> Set Alarm  
