@@ -21,6 +21,10 @@
 
   You: No problem, I'm a Python hero!
 
+- Target
+  --> The goal is to develop a voice control system that responds to the command: "Hello Hal"
+  --> It should contain the follwing features which are mentioned below.
+
 - Features:
 
    --> weather „Hello Hal, hows the weather?“ Wetterdatenbank einfügen  
@@ -30,6 +34,8 @@
    --> „Hello Hal, tell me a joke“  
    --> Implement google standard answers  
    --> Save document (e. g. speech to text)  
+
+- Process Flow Chart 
 
 
 ## How Speech Recognition Works – An Overview
