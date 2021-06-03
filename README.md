@@ -13,9 +13,25 @@
 - Description and understanding of the business question or problem
 - Goal: What was the task to be accomplished? What was intended to achieve?
 
+## Use Case 
+
+- Example: program a Speech Regognition
+
+  Me: HAL, please... Can someone else help me?
+
+  You: No problem, I'm a Python hero!
+
+- Features:
+   --> weather „Hello Hal, hows the weather?“ Wetterdatenbank einfügen  
+   --> Open Browser (play a youtube video)  
+   --> Set Alarm  
+   --> Turn on music  
+   --> „Hello Hal, tell me a joke“  
+   --> Implement google standard answers  
+   --> Save document (e. g. speech to text)  
 
 
-How Speech Recognition Works – An Overview
+## How Speech Recognition Works – An Overview
 
 To get a complete overview about the business problem it is necessary to understand how the speech recognition process itself works. 
 
@@ -46,11 +62,12 @@ Some of the factors that make programming more difficult are
 
 The first step is to install all necessary libraries. 
  
-- Speech Recognition 
-- PyAudio
-
-Speech recognition is for tbd. 
-PyAudio is necessary if you want to use audio input from microphones. 
+- Speech Recognition ->speech to text  
+- PyAudio ->for usage of audio input and output
+- wave ->read & write wav files
+- spacy -> natural language processing
+- pyttsx3 ->text to speech conversion
+- numpy
 
 
 ## 3) Findings and achievements
@@ -72,4 +89,6 @@ After the pip command is installed, the installation of PyAudio should work as w
 
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
+
+
 
