@@ -35,8 +35,9 @@
    --> Implement google standard answers  
    --> Save document (e. g. speech to text)  
 
-- Process Flow Chart 
-![Bildschirmfoto 2021-06-03 um 18 29 49](https://user-images.githubusercontent.com/83067079/120679763-d3f4ac80-c499-11eb-90a6-71a1f4bd382f.png)
+## Process Flow Chart 
+<img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
+
 
 
 ## How Speech Recognition Works – An Overview
