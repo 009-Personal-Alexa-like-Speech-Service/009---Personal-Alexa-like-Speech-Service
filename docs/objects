@@ -1,5 +1,9 @@
+import speechrecognition
 import pyaudio
 import wave
+import spacy
+import pyttsx3
+
  
 
 # Possible relevant objects
@@ -13,6 +17,7 @@ class AudioSource():
 
 class Microphone(AudioSource): pass
 creates a new "Microphone" instance, which represents a physical microphone on the computer. Subclass of "AudioSource".
+
 class AudioFile(AudioSource): pass
 creates a new "AudioFile" instance, which represents the recorded audio file (readable for the computer)
 
@@ -21,7 +26,6 @@ class Recognizer(AudioSource): pass
 
 AudioData(object): pass
 creates an object for text-to-speech-proccessing 
-
 
 
 FORMAT = pyaudio.paInt16
