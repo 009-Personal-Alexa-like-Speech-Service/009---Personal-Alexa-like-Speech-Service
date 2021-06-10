@@ -42,6 +42,9 @@
 
 ## How Speech Recognition Works – An Overview
 
+<img width="1151" alt="Bildschirmfoto 2021-06-10 um 10 44 41" src="https://user-images.githubusercontent.com/83067079/121494423-055d0300-c9d9-11eb-8d8d-4617f08a481a.png">
+(Source:https://towardsdatascience.com/speech-recognition-in-python-the-complete-beginners-guide-de1dd7f00726)
+
 To get a complete overview about the business problem it is necessary to understand how the speech recognition process itself works. 
 
 The first component of speech recognition is speech. Speech must be converted from physical sound to an electrical signal with a microphone, and then to digital data with an analog-to-digital converter. Once the speech is digitized, several models can be used to transcribe the audio to text.
