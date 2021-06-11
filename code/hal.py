@@ -1,6 +1,7 @@
 import os
 import sys
 
+
 from interpreter import Interpreter
 from listener import Listener
 
@@ -12,33 +13,36 @@ class Hal():
         self.main_menu()
 
     def main_menu(self):
-        self.clear_screen()
-        print("*"*80)
-        print("Hal main menu")
-        print("*" * 80)
-        print("\t press 1 to talk to Hal")
-        print("\t press 2 to turn off Hal")
-        inp = input("Please type 1 or 2 and press enter:")
-        if inp == "1":
-            print("mock: I'm listening...")
-        elif inp == "2":
-            sys.exit()
-        else:
-            input("Wrong command please press enter to continue")
-            self.main_menu()
+        while True:
+            Hal.clear_screen()
+            print("*"*80)
+            print("Hal main menu")
+            print("*" * 80)
+            print("\t press 1 to talk to Hal")
+            print("\t press 2 to turn off Hal")
+            inp = input("Please type 1 or 2 and press enter:")
+            if inp == "1":
+                print("mock: I'm listening...")
+                #initialize listener and start listening
+            elif inp == "2":
+                sys.exit()
+            else:
+                input("Wrong command please press enter to continue")
+
 
     def start_listening(self):
         l = Listener()
-        l.start()
-        l.stop()
-        i = Interpreter()
+        i = Interpreter(l.listen())
         spoken_words = i.process(l.recording)
         print(f"Hello Dave did u mean: {spoken_words}")
 
-        i.execute("How old are you?")
+        i.execute(spoken_words)
 
 
-    def clear_screen(self):
+
+
+    @staticmethod
+    def clear_screen():
        # for mac and linux(here, os.name is 'posix')
        if os.name == 'posix':
           _ = os.system('clear')

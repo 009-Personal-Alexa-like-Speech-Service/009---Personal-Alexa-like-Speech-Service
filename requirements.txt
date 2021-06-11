@@ -1,5 +1,6 @@
 speechrecognition
 pyaudio
-wave
-spacy
+# wave
+# spacy
 pyttsx3
+
