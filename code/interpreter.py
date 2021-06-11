@@ -25,7 +25,7 @@ class Interpreter():
         elif spoken_words == "What is your name?":
             self.speaker.speak("My name is Hal.")
         elif spoken_words == "Open Google.":
-            self.speaker.speak("My name is Hal.")
+            self.speaker.speak("I open google.com for you.")
         else:
             self.speaker.speak("Sorry Dave, I am afraid I cant do this.")
 
