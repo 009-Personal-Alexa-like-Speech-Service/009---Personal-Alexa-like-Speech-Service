@@ -108,7 +108,8 @@ There was a problem to install the package "PyAudio". We found two different sol
 
 After the pip command is installed, the installation of PyAudio should work as well. 
 
-2.)
+2.) For Mac type the following command into the Pycharm console:
+
 
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
