@@ -119,6 +119,7 @@ or
 
 - pip3 install pyaudio
 
+
 1.2 Manual pull request
 
 1.) Type in your terminal:
