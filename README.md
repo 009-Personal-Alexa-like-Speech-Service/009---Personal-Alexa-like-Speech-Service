@@ -80,6 +80,10 @@ Some of the factors that make programming more difficult are
 - Nobody speak in the same way – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice and understand it immediately.
 - Background noise – Differentiating the speech from the background noise is very difficult. This is especially true if the background noise is also speech (say in a class).
 
+## Chrisp-DM
+
+![image](https://user-images.githubusercontent.com/83068247/122057883-5e6ad380-cdeb-11eb-9fb5-400ab769d5bd.png)
+
 
 ## 2) Methological approach
 
