@@ -133,6 +133,7 @@ or
 
 ![image](https://user-images.githubusercontent.com/83068247/122056101-91ac6300-cde9-11eb-9ed2-5768d8b7567e.png)
 
+Before pushing u need to fetch and merge.
 
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
