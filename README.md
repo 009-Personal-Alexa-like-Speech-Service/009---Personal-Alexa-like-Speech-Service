@@ -119,8 +119,19 @@ or
 
 - pip3 install pyaudio
 
+1.2 Manual pull request
+
+1.) Type in your terminal:
+
+- cd desktop
+- and your project path with git push in the end
+
+![image](https://user-images.githubusercontent.com/83068247/122055845-55790280-cde9-11eb-8382-a1337a20b01b.png)
+
+
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
+-
 
 
 
