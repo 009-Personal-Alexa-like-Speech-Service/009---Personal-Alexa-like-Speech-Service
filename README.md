@@ -114,7 +114,9 @@ After the pip command is installed, the installation of PyAudio should work as w
 afterwards use:
 - brew install portaudio
 - pip install pyaudio
+
 or
+
 - pip3 install pyaudio
 
 ## 4) Summary
