@@ -124,7 +124,7 @@ or
 1.) Type in your terminal:
 
 - cd desktop
-- and your project path with git push in the end
+- and your project path with git push at the end
 
 ![image](https://user-images.githubusercontent.com/83068247/122056101-91ac6300-cde9-11eb-9ed2-5768d8b7567e.png)
 
