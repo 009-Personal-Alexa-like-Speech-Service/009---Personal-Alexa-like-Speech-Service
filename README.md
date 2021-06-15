@@ -82,7 +82,7 @@ Some of the factors that make programming more difficult are
 
 ## Chrisp-DM
 
-![image](https://user-images.githubusercontent.com/83068247/122057883-5e6ad380-cdeb-11eb-9fb5-400ab769d5bd.png)
+![image](https://user-images.githubusercontent.com/83068247/122058489-f4066300-cdeb-11eb-9eb3-748da4dc36f1.png)
 
 
 ## 2) Methological approach
