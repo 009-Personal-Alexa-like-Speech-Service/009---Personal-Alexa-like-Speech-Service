@@ -109,7 +109,13 @@ There was a problem to install the package "PyAudio". We found two different sol
 After the pip command is installed, the installation of PyAudio should work as well. 
 
 2.) For Mac type the following command into the Pycharm console:
+- https://www.youtube.com/watch?v=1oolnK1g6jw --> install homebrew
 
+afterwards use:
+- brew install portaudio
+- pip install pyaudio
+or
+- pip3 install pyaudio
 
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
