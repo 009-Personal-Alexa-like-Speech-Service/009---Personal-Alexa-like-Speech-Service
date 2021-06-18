@@ -1,5 +1,5 @@
 from recorder import Recorder
-import hal
+import utilities
 
 class Listener():
     def __init__(self):
@@ -7,7 +7,7 @@ class Listener():
         self.text = ""
     def listen(self):
         self.text = ""
-        hal.Hal.clear_screen()
+        utilities.clear_screen()
         print("I'm listening. Give me three seconds break before I answer.")
 
         if self.recorder.record():
@@ -15,5 +15,9 @@ class Listener():
 
         return self.text
 
+
+if __name__ == "__main__":
+    listener = Listener()
+    listener.listen()
 
 
