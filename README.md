@@ -42,7 +42,21 @@
 
 ## How Speech Recognition Works – An Overview
 
-To get a complete overview about the business problem it is necessary to understand how the speech recognition process itself works. 
+<img width="1151" alt="Bildschirmfoto 2021-06-10 um 10 44 41" src="https://user-images.githubusercontent.com/83067079/121494423-055d0300-c9d9-11eb-8d8d-4617f08a481a.png">
+(Source:https://towardsdatascience.com/speech-recognition-in-python-the-complete-beginners-guide-de1dd7f00726)
+
+
+To get a complete overview about the business problem it is necessary to understand how the speech recognition process itself works.
+
+1. Configure Microphone (for external microphones): It is advisable to specify the microphone during the program to avoid any glitches.
+2. Set Chunk Size: This basically involved specifying how many bytes of data we want to read at once. Typically, this value is specified in powers of 2 such as 1024 or 2048
+3. Set Sampling Rate: Sampling rate defines how often values are recorded for processing
+4. Set Device ID to the selected microphone: In this step, we specify the device ID of the microphone that we wish to use in order to avoid ambiguity in case there are multiple microphones. This also helps debug, in the sense that, while running the program, we will know whether the specified microphone is being recognized. During the program, we specify a parameter device_id. The program will say that device_id could not be found if the microphone is not recognized.
+5. Allow Adjusting for Ambient Noise: Since the surrounding noise varies, we must allow the program a second or too to adjust the energy threshold of recording so it is adjusted according to the external noise level.
+6. Speech to text translation: This is done with the help of Google Speech Recognition. This requires an active internet connection to work. However, there are certain offline Recognition systems such as PocketSphinx, but have a very rigorous installation process that requires several dependencies. Google Speech Recognition is one of the easiest to use.
+
+
+ 
 
 The first component of speech recognition is speech. Speech must be converted from physical sound to an electrical signal with a microphone, and then to digital data with an analog-to-digital converter. Once the speech is digitized, several models can be used to transcribe the audio to text.
 
@@ -65,6 +79,10 @@ Some of the factors that make programming more difficult are
 - People talk fast – When we speak, we don’t break our sentences up into individual words – we kind of just blurt it all out in one long string of sounds with few breaks. This makes it difficult to determine where a word ends and the next one begins.
 - Nobody speak in the same way – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice and understand it immediately.
 - Background noise – Differentiating the speech from the background noise is very difficult. This is especially true if the background noise is also speech (say in a class).
+
+## Chrisp-DM
+
+![image](https://user-images.githubusercontent.com/83068247/122058489-f4066300-cdeb-11eb-9eb3-748da4dc36f1.png)
 
 
 ## 2) Methological approach
@@ -94,10 +112,32 @@ There was a problem to install the package "PyAudio". We found two different sol
 
 After the pip command is installed, the installation of PyAudio should work as well. 
 
-2.)
+2.) For Mac type the following command into the Pycharm console:
+- https://www.youtube.com/watch?v=1oolnK1g6jw --> install homebrew
+
+afterwards use:
+- brew install portaudio
+- pip install pyaudio
+
+or
+
+- pip3 install pyaudio
+
+
+1.2 Manual push request
+
+1.) Type in your terminal:
+
+- cd desktop
+- and your project path with git push at the end
+
+![image](https://user-images.githubusercontent.com/83068247/122056101-91ac6300-cde9-11eb-9ed2-5768d8b7567e.png)
+
+Before pushing u need to fetch and merge.
 
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
+
 
 
 
