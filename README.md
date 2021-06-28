@@ -135,6 +135,41 @@ or
 
 Before pushing u need to fetch and merge.
 
+
+Spacy:
+
+1. Tokenization
+Word tokens are the basic units of text that appear in any NLPlabeling task. The first step in processing text is to break it into tokens.
+
+Import the Spacy language class to create an NLP object of this class with the code shown in the following code. Then process your document using the NLP object and put some text data or your text file into it to process it. Select the token you want to print and then print the output using the "Token and Text" function to get the value in text form.
+
+2. Labeling of word types:
+
+When we learn basic grammar, we understand the difference between nouns, verbs, adjectives, and adverbs, and while it may seem pointless at the time, it turns out to be a crucial element of natural language processing.
+
+Spacy provides convenient tools to break sentences into word lists and then assign each word to a specific part of speech based on the context.
+
+3. Name entity recognition:
+
+One of the most common labeling problems is finding entities in the text. Typically, name entity recognition represents the names of politicians, actors, and famous places, as well as organizations and products available in that organization's market.
+
+Simply import the Spacy and Load model and process the text with nlp, then iterate over each entity and print its label.
+
+4. Dependency parsing:
+
+The main concept of dependency parsing is that each linguistic unit (words) is connected by a directed linkage. These links are called dependencies in linguistics.
+
+5. Matcher:
+
+The Matcher is very powerful and allows you to start many NLP-based tasks, such as entity extraction, finding patterns that match in the text or document.
+
+Import the Spacy, Matcher and initialize the matcher with the document and define a pattern you want to find in the document. Then add the pattern to the matcher. Then print the matches in the matcher documents.
+
+6. Summary:
+
+We will learn about the Python library Spacy for NLP problems. We learned about NLP and how to use Spacy to solve the problems and how it is used in the industry. Some important Spacy pipelines and their code in developing advanced NLP models.
+
+
 ## 4) Summary
 - summary if the targets have been archieved and if not describe reasons 
 
