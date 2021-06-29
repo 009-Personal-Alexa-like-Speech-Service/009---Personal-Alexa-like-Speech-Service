@@ -138,10 +138,18 @@ Before pushing u need to fetch and merge.
 
 Spacy:
 
+spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python.
+
+<img width="515" alt="image" src="https://user-images.githubusercontent.com/83068247/123808167-cb549200-d8f0-11eb-9878-4093c406b6f1.png">
+
+
 1. Tokenization
 
 Word tokens are the basic units of text that appear in any NLPlabeling task. The first step in processing text is to break it into tokens.
 Import the Spacy language class to create an NLP object of this class with the code shown in the following code. Then process your document using the NLP object and put some text data or your text file into it to process it. Select the token you want to print and then print the output using the "Token and Text" function to get the value in text form.
+
+<img width="542" alt="image" src="https://user-images.githubusercontent.com/83068247/123808008-a6601f00-d8f0-11eb-833e-7cd011f4b2f7.png">
+
 
 2. Labeling of word types:
 
