@@ -1,5 +1,5 @@
 # 009 - Personal Alexa-like Speech Service
-## Implement an Alexa alike speech service in Python. natural language processing.
+## Implement an Alexa alike speech service in Python "Natural Language Processing"
 
 
 - Kim Celine Marzi [843594]
@@ -15,25 +15,28 @@
 
 ### Use Case 
 
-- Example: program a Speech Regognition
+**Example: program a Speech Regognition**
 
-  Me: HAL, please... Can someone else help me?
+  * Me: HAL, please... Can someone else help me?
 
-  You: No problem, I'm a Python hero!
+  * You: No problem, I'm a Python hero!
 
-- **Target**
-  &rightarrow; The goal is to develop a voice control system that responds to the command: "Hello Hal"
-  &rightarrow; It should contain the follwing features which are mentioned below.
+**Target**
+  * &rightarrow; The goal is to develop a voice control system that responds to the command: "Hello Hal"
+  * &rightarrow; It should contain the follwing features which are mentioned below and give action to that. 
 
-- Features:
+**Features**
 
-   --> weather „Hello Hal, hows the weather?“ Wetterdatenbank einfügen  
-   --> Open Browser (play a youtube video)  
-   --> Set Alarm  
-   --> Turn on music  
-   --> „Hello Hal, tell me a joke“  
-   --> Implement google standard answers  
-   --> Save document (e. g. speech to text)  
+We want to implement the features listed below:
+
+   * &rightarrow; Give information about the weather „Hello Hal, hows the weather today?“  
+   * &rightarrow; Open Browser (google.com)  
+   * &rightarrow; Set Alarm  
+   * &rightarrow; Turn on music  
+   * &rightarrow; „Hello Hal, tell me a joke“  
+   * &rightarrow; Implement google standard answers  
+   * &rightarrow; Save document (e. g. speech to text)  
+   * &rightarrow; Compute two numbers 
 
 ### Process Flow Chart 
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
