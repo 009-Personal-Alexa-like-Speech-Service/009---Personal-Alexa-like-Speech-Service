@@ -146,8 +146,27 @@ Import the Spacy, Matcher and initialize the matcher with the document and defin
 - numpy
 
 
+
+
+
+
+In the following, we wrote a description of which classes are implemented and what functions they contain. 
+* **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
+* **Class: Hal** (file hal.py) Hal is our speech assistant
+** He starts  to record audio when option 1 in the main menu is chosen
+** After three seconds of break he stopps recording 
+** If he does not understand the spoken words he gives an error
+* **Class: Listener**
+* **Class: Speaker**
+* **Class: Interpreter**
+* **Class: Utilities**
+* **Class: Recognizer**
+
+
 ## 3) Findings and achievements
 - Detailed description of approach, work, findings, concrete achievements 
+
+First we will start with our problems we had during our project:
 
 #### 1. Problems 
 ##### 1.1 Installation 
