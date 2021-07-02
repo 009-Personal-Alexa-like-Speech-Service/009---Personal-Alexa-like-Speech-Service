@@ -13,7 +13,7 @@
 - Description and understanding of the business question or problem
 - Goal: What was the task to be accomplished? What was intended to achieve?
 
-## Use Case 
+### Use Case 
 
 - Example: program a Speech Regognition
 
@@ -21,9 +21,9 @@
 
   You: No problem, I'm a Python hero!
 
-- Target
-  --> The goal is to develop a voice control system that responds to the command: "Hello Hal"
-  --> It should contain the follwing features which are mentioned below.
+- **Target**
+  &rightarrow; The goal is to develop a voice control system that responds to the command: "Hello Hal"
+  &rightarrow; It should contain the follwing features which are mentioned below.
 
 - Features:
 
@@ -35,12 +35,16 @@
    --> Implement google standard answers  
    --> Save document (e. g. speech to text)  
 
-## Process Flow Chart 
+### Process Flow Chart 
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
 
 
+### Chrisp-DM
 
-## How Speech Recognition Works – An Overview
+![image](https://user-images.githubusercontent.com/83068247/122058489-f4066300-cdeb-11eb-9eb3-748da4dc36f1.png)
+
+
+### How Speech Recognition Works – An Overview
 
 <img width="1151" alt="Bildschirmfoto 2021-06-10 um 10 44 41" src="https://user-images.githubusercontent.com/83067079/121494423-055d0300-c9d9-11eb-8d8d-4617f08a481a.png">
 (Source:https://towardsdatascience.com/speech-recognition-in-python-the-complete-beginners-guide-de1dd7f00726)
@@ -54,9 +58,6 @@ To get a complete overview about the business problem it is necessary to underst
 4. Set Device ID to the selected microphone: In this step, we specify the device ID of the microphone that we wish to use in order to avoid ambiguity in case there are multiple microphones. This also helps debug, in the sense that, while running the program, we will know whether the specified microphone is being recognized. During the program, we specify a parameter device_id. The program will say that device_id could not be found if the microphone is not recognized.
 5. Allow Adjusting for Ambient Noise: Since the surrounding noise varies, we must allow the program a second or too to adjust the energy threshold of recording so it is adjusted according to the external noise level.
 6. Speech to text translation: This is done with the help of Google Speech Recognition. This requires an active internet connection to work. However, there are certain offline Recognition systems such as PocketSphinx, but have a very rigorous installation process that requires several dependencies. Google Speech Recognition is one of the easiest to use.
-
-
- 
 
 The first component of speech recognition is speech. Speech must be converted from physical sound to an electrical signal with a microphone, and then to digital data with an analog-to-digital converter. Once the speech is digitized, several models can be used to transcribe the audio to text.
 
@@ -73,16 +74,12 @@ While programming, we don't have to worry about about that speech recognition pr
 (Source: https://realpython.com/python-speech-recognition/) 
 
 
-Some of the factors that make programming more difficult are 
+Some of the factors that make programming a speech recognition more difficult are 
 
-- the complexity of spoken language. In English, many words have multiple meanings depending on the context – for example “red” and “read” sound exactly the same but have completely different meanings.
-- People talk fast – When we speak, we don’t break our sentences up into individual words – we kind of just blurt it all out in one long string of sounds with few breaks. This makes it difficult to determine where a word ends and the next one begins.
-- Nobody speak in the same way – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice and understand it immediately.
-- Background noise – Differentiating the speech from the background noise is very difficult. This is especially true if the background noise is also speech (say in a class).
-
-## Chrisp-DM
-
-![image](https://user-images.githubusercontent.com/83068247/122058489-f4066300-cdeb-11eb-9eb3-748da4dc36f1.png)
+* the complexity of spoken language. In English, many words have multiple meanings depending on the context – for example “red” and “read” sound exactly the same but have completely different meanings.
+* People talk fast – When we speak, we don’t break our sentences up into individual words – we kind of just blurt it all out in one long string of sounds with few breaks. This makes it difficult to determine where a word ends and the next one begins.
+* Nobody speak in the same way – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice and understand it immediately.
+* Background noise – Differentiating the speech from the background noise is very difficult. This is especially true if the background noise is also speech (say in a class).
 
 
 ## 2) Methological approach
