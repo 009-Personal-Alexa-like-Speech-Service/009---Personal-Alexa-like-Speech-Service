@@ -16,6 +16,7 @@
 ### Use Case 
 
 **Example: program a Speech Regognition**
+To start very easy we wrote down the following short use case:
 
   * Me: HAL, please... Can someone else help me?
 
@@ -30,8 +31,8 @@
 We want to implement the features listed below:
 
    * &rightarrow; Give information about the weather „Hello Hal, hows the weather today?“  
-   * &rightarrow; Open Browser (google.com)  
-   * &rightarrow; Set Alarm  
+   * &rightarrow; Open a browser (google.com)  
+   * &rightarrow; Set an alarm  
    * &rightarrow; Turn on music  
    * &rightarrow; „Hello Hal, tell me a joke“  
    * &rightarrow; Implement google standard answers  
@@ -122,11 +123,15 @@ While programming, we don't have to worry about about that speech recognition pr
 ## 2) Methological approach
 
 The first step is to install all necessary libraries. 
- 
-- Speech Recognition &rightarrow; speech to text  
-- PyAudio &rightarrow;  for usage of audio input and output
-- wave &rightarrow;  read & write wav files
-- spacy &rightarrow; natural language processing
+
+* **numpy**
+** short definition 
+* **Speech Recognition** 
+** &rightarrow; speech to text  
+* **PyAudio**
+** &rightarrow;  for usage of audio input and output
+* **spacy**
+**  &rightarrow; natural language processing 
 
 spaCy is a huge library with many function. Below we listed a few of these function as an overview. 
 
@@ -168,8 +173,9 @@ The Matcher is very powerful and allows you to start many NLP-based tasks, such 
 Import the Spacy, Matcher and initialize the matcher with the document and define a pattern you want to find in the document. Then add the pattern to the matcher. Then print the matches in the matcher documents.
 
 
-- pyttsx3 &rightarrow; text to speech conversion
-- numpy
+* **pyttsx3**
+**  &rightarrow; text to speech conversion
+
 
 
 
@@ -180,7 +186,7 @@ Import the Spacy, Matcher and initialize the matcher with the document and defin
 ## 3) Findings and achievements
 - Detailed description of approach, work, findings, concrete achievements 
 
-First we will start with our problems we had during our project:
+First we will start with problems we had during our project and how we solved these problems:
 
 #### 1. Problems 
 ##### 1.1 Installation 
