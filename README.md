@@ -94,7 +94,7 @@ The first step is to install all necessary libraries.
 - wave ->read & write wav files
 - spacy -> natural language processing
 
-
+spaCy is a huge library with many function. Below we listed a few of these function as an overview. 
 
 spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python.
 
