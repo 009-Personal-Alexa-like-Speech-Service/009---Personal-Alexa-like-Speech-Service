@@ -49,6 +49,10 @@ Below we designed a flow chart how our speech recognition works in three steps:
 ![image](https://user-images.githubusercontent.com/83068247/122058489-f4066300-cdeb-11eb-9eb3-748da4dc36f1.png)
 
 
+
+
+
+
 ### How Speech Recognition Works – An Overview
 
 <img width="1151" alt="Bildschirmfoto 2021-06-10 um 10 44 41" src="https://user-images.githubusercontent.com/83067079/121494423-055d0300-c9d9-11eb-8d8d-4617f08a481a.png">
@@ -79,7 +83,9 @@ While programming, we don't have to worry about about that speech recognition pr
 *(Source: https://realpython.com/python-speech-recognition/)*
 
 
-#### Some of the factors that make programming a speech recognition more difficult are 
+
+
+### Some of the factors that make programming a speech recognition more difficult are 
 
 * the complexity of spoken language. In English, many words have multiple meanings depending on the context – for example “red” and “read” sound exactly the same but have completely different meanings.
 * People talk fast – When we speak, we don’t break our sentences up into individual words – we kind of just blurt it all out in one long string of sounds with few breaks. This makes it difficult to determine where a word ends and the next one begins.
