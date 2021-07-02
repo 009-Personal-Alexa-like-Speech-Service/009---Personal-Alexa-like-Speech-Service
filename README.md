@@ -78,7 +78,9 @@ In the following, we wrote a description of which classes are implemented and wh
 * **Class: Recognizer**
 
 
-To get a complete overview about the business problem it is necessary to understand how the speech recognition process itself works.
+
+
+**To get a complete overview about the business problem it is necessary to understand how the speech recognition process itself works.** 
 
 1. **Configure Microphone**: It is advisable to specify the microphone during the program to avoid any glitches.
 2. **Set Chunk Size:** This basically involved specifying how many bytes of data we want to read at once. Typically, this value is specified in powers of 2 such as 1024 or 2048
@@ -110,6 +112,10 @@ While programming, we don't have to worry about about that speech recognition pr
 * **People talk fast** – When we speak, we don’t break our sentences up into individual words – we kind of just blurt it all out in one long string of sounds with few breaks. This makes it difficult to determine where a word ends and the next one begins.
 * **Nobody speak in the same way** – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice and understand it immediately.
 * **Background noise** – Differentiating the speech from the background noise is very difficult. This is especially true if the background noise is also speech (say in a class).
+
+
+
+- - - -
 
 
 ## 2) Methological approach
@@ -166,6 +172,10 @@ Import the Spacy, Matcher and initialize the matcher with the document and defin
 
 
 
+- - - -
+
+
+
 ## 3) Findings and achievements
 - Detailed description of approach, work, findings, concrete achievements 
 
@@ -207,7 +217,7 @@ or
 
 
 
-
+- - - -
 
 
 
