@@ -71,7 +71,8 @@ In the following, we wrote a description of which classes are implemented and wh
 ** The Recorder class imports "speech recognition" as a library. 
 ** We defined a microphone and that the recording will stopp after three seconds of break. 
 * **Class: Listener**
-* **Class: Speaker**
+* **Class: Speaker** (file speaker.py)
+** Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
 * **Class: Interpreter**
 * **Class: Utilities** (file utilities.py)
 ** We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
