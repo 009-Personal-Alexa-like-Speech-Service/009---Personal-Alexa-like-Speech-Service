@@ -98,6 +98,8 @@ spaCy is a huge library with many function. Below we listed a few of these funct
 
 spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python.
 
+spaCy comes with pretrained pipelines and currently supports tokenization and training for 60+ languages. It features state-of-the-art speed and neural network models for tagging, parsing, named entity recognition, text classification and more, multi-task learning with pretrained transformers like BERT, as well as a production-ready training system and easy model packaging, deployment and workflow management. spaCy is commercial open-source software, released under the MIT license.
+
 <img width="515" alt="image" src="https://user-images.githubusercontent.com/83068247/123808167-cb549200-d8f0-11eb-9878-4093c406b6f1.png">
 
 
