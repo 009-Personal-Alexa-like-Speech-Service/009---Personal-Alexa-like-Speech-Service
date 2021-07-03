@@ -142,7 +142,7 @@ spaCy comes with pretrained pipelines and currently supports tokenization and tr
 <img width="515" alt="image" src="https://user-images.githubusercontent.com/83068247/123808167-cb549200-d8f0-11eb-9878-4093c406b6f1.png">
 
 
-**1. Tokenization ** 
+**1. Tokenization** 
 
 Word tokens are the basic units of text that appear in any NLPlabeling task. The first step in processing text is to break it into tokens.
 Import the Spacy language class to create an NLP object of this class with the code shown in the following code. Then process your document using the NLP object and put some text data or your text file into it to process it. Select the token you want to print and then print the output using the "Token and Text" function to get the value in text form.
