@@ -45,7 +45,7 @@ Below we designed a flow chart how our speech recognition works in three steps:
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
 
 
-### Crisp-DM
+### Crisp-DM :arrows_counterclockwise:
 
 ![image](https://user-images.githubusercontent.com/83068247/122058489-f4066300-cdeb-11eb-9eb3-748da4dc36f1.png)
 
@@ -68,13 +68,13 @@ In the following, we wrote a description of which classes are implemented and wh
 ** He starts  to record audio when option 1 in the main menu is chosen
 ** After three seconds of break he stopps recording 
 ** If he does not understand the spoken words he gives an error
-* **Class: Recorder** (file recorder.py) 
+* **Class: Recorder** (file recorder.py) :video_camera:
 ** The Recorder class imports "speech recognition" as a library. 
 ** We defined a microphone and that the recording will stopp after three seconds of break. 
 * **Class: Listener**
-* **Class: Speaker** (file speaker.py)
+* **Class: Speaker** (file speaker.py) :speaker:
 ** Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
-* **Class: Interpreter**
+* **Class: Interpreter** :hourglass_flowing_sand:
 * **Class: Utilities** (file utilities.py)
 ** We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
 * **Class: Recognizer**
@@ -184,7 +184,7 @@ Import the Spacy, Matcher and initialize the matcher with the document and defin
 
 
 
-## 3) Findings and achievements
+## 3) Findings and achievements :construction:
 - Detailed description of approach, work, findings, concrete achievements 
 
 First we will start with problems we had during our project and how we solved these problems:
@@ -239,7 +239,7 @@ python -m spacy download en_core_web_sm
 
 
 
-## 4) Summary
+## 4) Summary :construction:
 - summary if the targets have been archieved and if not describe reasons 
 
 
