@@ -64,19 +64,26 @@ Below we designed a flow chart how our speech recognition works in three steps:
 
 In the following, we wrote a description of which classes are implemented and what functions they contain. 
  **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
+ 
  * **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
 - He starts  to record audio when option 1 in the main menu is chosen
 - After three seconds of break he stopps recording 
 - If he does not understand the spoken words he gives an error
+
  **Class: Recorder** (file recorder.py) :video_camera:
 - The Recorder class imports "speech recognition" as a library. 
 - We defined a microphone and that the recording will stopp after three seconds of break. 
- **Class: Listener** :hear_no_evil:
- **Class: Speaker** (file speaker.py) :speaker:
+
+ **Class: Listener** :ear:
+ 
+ **Class: Speaker** (file speaker.py) 🔈
 - Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
- **Class: Interpreter** :hourglass_flowing_sand:
- **Class: Utilities** (file utilities.py) :open_file_folder:
+
+ **Class: Interpreter** ⏳
+ 
+ **Class: Utilities** (file utilities.py) 📂
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
+-
  **Class: Recognizer**
 
 
