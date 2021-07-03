@@ -172,13 +172,7 @@ The Matcher is very powerful and allows you to start many NLP-based tasks, such 
 
 Import the Spacy, Matcher and initialize the matcher with the document and define a pattern you want to find in the document. Then add the pattern to the matcher. Then print the matches in the matcher documents.
 
-**Installation**
 
-To install spacy you have to type the following code in your terminal:
-
-pip install -U spacy
-
-python -m spacy download en_core_web_sm
 
 * **pyttsx3**
 **  &rightarrow; text to speech conversion
@@ -217,6 +211,16 @@ afterwards use:
 or
 
 - pip3 install pyaudio
+
+
+
+There was a problem to install the package "Spacy". We found a solution for Mac and Windows. Type the following code in your terminal:
+
+
+pip install -U spacy
+
+python -m spacy download en_core_web_sm
+
 
 
 ##### 1.2 Manual push request
