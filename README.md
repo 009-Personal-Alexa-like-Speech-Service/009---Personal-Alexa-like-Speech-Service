@@ -1,4 +1,4 @@
-# 009 - Personal Alexa-like Speech Service
+# 009 - Personal Alexa-like Speech Service :loudspeaker:
 ## Implement an Alexa alike speech service in Python "Natural Language Processing"
 
 
@@ -9,7 +9,7 @@
 
 - - - -
 
-## 1) Business Understanding 
+## 1) Business Understanding 🧠
 - Description and understanding of the business question or problem
 - Goal: What was the task to be accomplished? What was intended to achieve?
 
@@ -22,7 +22,7 @@ To start very easy we wrote down the following short use case:
 
   * You: No problem, I'm a Python hero!
 
-**Target**
+**Target** :memo:
   * &rightarrow; The goal is to develop a voice control system that responds to the command: "Hello Hal"
   * &rightarrow; It should contain the follwing features which are mentioned below and give action to that. 
 
@@ -187,7 +187,7 @@ Import the Spacy, Matcher and initialize the matcher with the document and defin
 ## 3) Findings and achievements :construction:
 - Detailed description of approach, work, findings, concrete achievements 
 
-First we will start with problems we had during our project and how we solved these problems:
+:warning: First we will start with problems we had during our project and how we solved these problems :warning:
 
 #### 1. Problems 
 ##### 1.1 Installation 
@@ -196,30 +196,30 @@ There was a problem to install the package "PyAudio". We found two different sol
 
 
 1.)For **Windows** type the following command into the Pycharm console:
-- pip install pipwin
-- pipwin install pyaudio
+* pip install pipwin
+* pipwin install pyaudio :heavy_check_mark:
 
 After the pip command is installed, the installation of PyAudio should work as well. 
 
 2.) For **Mac** type the following command into the Pycharm console:
-- "install homebrew"
+* "install homebrew"
 afterwards use:
-- brew install portaudio
-- pip install pyaudio
-- *https://www.youtube.com/watch?v=1oolnK1g6jw* &rightarrow; This youtube video explains step by step how to install PyAudio on a Mac
+* brew install portaudio
+* pip install pyaudio :heavy_check_mark:
+* *https://www.youtube.com/watch?v=1oolnK1g6jw* &rightarrow; This youtube video explains step by step how to install PyAudio on a Mac
 
 or
 
-- pip3 install pyaudio
+* pip3 install pyaudio :heavy_check_mark:
 
 
 
-There was a problem to install the package "Spacy". We found a solution for Mac and Windows. Type the following code in your terminal:
+3.) There was a problem to install the package "Spacy". We found a solution for Mac and Windows. Type the following code in your terminal:
 
 
-pip install -U spacy
+* As a first command: *pip install -U spacy*
 
-python -m spacy download en_core_web_sm
+* Afterwards this one *python -m spacy download en_core_web_sm* :heavy_check_mark:
 
 
 
@@ -227,9 +227,9 @@ python -m spacy download en_core_web_sm
 
 1.) Type in your terminal:
 
-- cd desktop
-- And your project path with git push at the end
-- Before pushing you need to fetch and merge.
+* cd desktop
+* And your project path with git push at the end
+* Before pushing you need to fetch and merge :heavy_check_mark:
 
 ![image](https://user-images.githubusercontent.com/83068247/122056101-91ac6300-cde9-11eb-9ed2-5768d8b7567e.png)
 
