@@ -12,6 +12,7 @@ class Interpreter():
         self.recognizers = []
         self.recognizers.append(Recognizer_simple())
         self.recognizers.append(Recognizer_simple_math())
+        self.recognizers.append(Recognizer_named_entities())
         self.nlp = spacy.load("en_core_web_sm")
 
 

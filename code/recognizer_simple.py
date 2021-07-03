@@ -16,11 +16,14 @@ class Recognizer_simple(Recognizer):
         if self.text == "What is your name?":
             self.answer = "My name is Hal."
             return True
-        if self.text == "Open Google.":
+        if self.compare(self.text, ["Open Google." "Open browser."]):
             self.answer = "I open google.com for you."
             return True
-        if self.text == "how are you":
-            self.answer = "i'm feeling good dave and you"
+        if self.compare(self.text, ["How are you?", "How are you doing?", "How are you feeling today?", "What is up?", "How is everything?", "How have you been?", "What are you up to?"]):
+            self.answer = "I'm feeling good dave and you?"
+            return True
+        if self.compare(self.text, ["Tell me a joke.", "Do you know a joke?", "Tell me something funny."]):
+            self.answer = "Did you hear about the monkeys who shared an Amazon account? They were Prime mates."
             return True
 
         return False
