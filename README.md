@@ -177,6 +177,7 @@ Import the Spacy, Matcher and initialize the matcher with the document and defin
 To install spacy you have to type the following code in your terminal:
 
 pip install -U spacy
+
 python -m spacy download en_core_web_sm
 
 * **pyttsx3**
