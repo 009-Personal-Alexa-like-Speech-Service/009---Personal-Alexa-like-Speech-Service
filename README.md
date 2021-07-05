@@ -137,6 +137,11 @@ The first step is to install all necessary libraries.
 ** &rightarrow; speech to text  
 * **PyAudio**
 ** &rightarrow;  for usage of audio input and output
+
+Pyaudio is a Python link for PortAudio, a cross-platform audio input and output library. This basically means that we can use Pyaudio to record and play audio across all platforms and operating systems, such as Windows, Mac and Linux.
+
+![grafik](https://user-images.githubusercontent.com/83067202/124469715-fe889c80-dd9a-11eb-84d3-fbd0e0d544b0.png)
+
 * **spacy**
 **  &rightarrow; natural language processing 
 
