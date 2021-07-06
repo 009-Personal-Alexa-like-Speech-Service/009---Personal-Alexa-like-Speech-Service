@@ -1,6 +1,8 @@
 from recorder import Recorder
 import utilities
 
+from recorder import Recorder
+
 class Listener():
     def __init__(self):
         self.recorder = Recorder()
