@@ -134,13 +134,19 @@ The first step is to install all necessary libraries.
 * **numpy**
 ** short definition 
 * **Speech Recognition** 
-** &rightarrow; speech to text  
+** &rightarrow; speech to text 
+Google has a speech recognition API. This API converts spoken text (microphone) to written text (Python string), called Speech to Text. You can simply speak into the microphone and the Google API will translate it into written text. This program takes the audio from your microphone, sends it to the Speech API, and returns a Python string.
+
+The audio is recorded using a speech recognition module, which is included in the program above. Next, we send the recorded speech to the Google Speech Recognition API and return the output.
+
+
 * **PyAudio**
 ** &rightarrow;  for usage of audio input and output
 
 Pyaudio is a Python link for PortAudio, a cross-platform audio input and output library. This basically means that we can use Pyaudio to record and play audio across all platforms and operating systems, such as Windows, Mac and Linux.
 
 ![grafik](https://user-images.githubusercontent.com/83067202/124469715-fe889c80-dd9a-11eb-84d3-fbd0e0d544b0.png)
+
 
 * **spacy**
 **  &rightarrow; natural language processing 
