@@ -1,11 +1,12 @@
 from recognizer import Recognizer
-import Spacy
+import spacy
+from spacy.tokens import Doc
 
 #
 class Recognizer_simple_math(Recognizer):
 
 
-    def recognize(self, doc:Spacy.Doc):
+    def recognize(self, doc:Doc):
         self.doc = doc
         self.answer = "bla bla bla"
 
@@ -17,7 +18,8 @@ class Recognizer_simple_math(Recognizer):
         operator = doc[1].text
         operant_left = doc[0].text
         operant_right = doc[2].text
-        if operant_left.isnumeric() and operant_right.isnumeric():
+        self.dump(doc)
+        if self.isfloat(operant_left) and self.isfloat(operant_right):
             if operator == "*":
                 self.answer = str(float(operant_left) * float(operant_right))
             elif operator == "-":
@@ -57,3 +59,14 @@ class Recognizer_simple_math(Recognizer):
                print(token, token.pos_)
 
 
+    def dump(self, doc:Doc):
+        for token in doc:
+            print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
+                  token.shape_, token.is_alpha, token.is_stop)
+
+    def isfloat(self, num):
+        try:
+            float(num)
+            return True
+        except ValueError:
+            return False

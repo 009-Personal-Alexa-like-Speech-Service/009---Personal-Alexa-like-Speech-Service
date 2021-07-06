@@ -10,6 +10,6 @@ class Speaker():
         self.engine.runAndWait()
 
 if __name__ == "__main__":
-    s=Speaker()
-    s.speak("Hello Dave")
+    speaker =Speaker()
+    speaker.speak("Hello Dave")
 

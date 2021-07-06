@@ -1,11 +1,12 @@
 from recognizer import Recognizer
 from typing import List
-import Spacy
+import spacy
+from spacy.tokens import Doc
 
 
 class Recognizer_simple(Recognizer):
 
-    def recognize(self, doc: Spacy.Doc):
+    def recognize(self, doc:Doc):
         self.doc = doc
         self.text = str(doc)
         self.answer = "bla bla bla"

@@ -1,8 +1,13 @@
 from recorder import Recorder
 from speaker import Speaker
+import spacy
+
+from speaker import Speaker
 from recognizer_simple_math import Recognizer_simple_math
 from recognizer_simple import Recognizer_simple
-import spacy
+from recognizer_named_entities import Recognizer_named_entities
+from recognizer_time import Recognizer_time
+
 
 class Interpreter():
     def __init__(self):
@@ -13,7 +18,9 @@ class Interpreter():
         self.recognizers.append(Recognizer_simple())
         self.recognizers.append(Recognizer_simple_math())
         self.recognizers.append(Recognizer_named_entities())
+        self.recognizers.append(Recognizer_time())
         self.nlp = spacy.load("en_core_web_sm")
+
 
 
     def execute(self, spoken_words:str=None):
@@ -40,5 +47,11 @@ class Interpreter():
 
 if __name__ == "__main__":
     interpreter = Interpreter()
-    interpreter.spoken_words = "The quick brown fox jumps over the lazy dog."
-    interpreter.interprete()
+    #interpreter.spoken_words = "The quick brown fox jumps over the lazy dog."
+    interpreter.spoken_words = "2*3"
+    interpreter.spoken_words = "2*3.14"
+    interpreter.spoken_words = "What time is it"
+    interpreter.spoken_words = "Are you from Hamburg"
+    if interpreter.execute():
+        print(interpreter.answer)
+

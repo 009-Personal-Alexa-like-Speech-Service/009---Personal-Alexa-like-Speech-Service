@@ -1,4 +1,4 @@
-import speechrecognition
+import SpeechRecognition
 import pyaudio
 import wave
 import spacy
