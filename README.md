@@ -196,6 +196,8 @@ Import the Spacy, Matcher and initialize the matcher with the document and defin
 * **pyttsx3**
 **  &rightarrow; text to speech conversion
 
+Is a text-to-speech conversion library used in Python. It works offline and is compatible with Python 2 and 3.
+
 
 
 
