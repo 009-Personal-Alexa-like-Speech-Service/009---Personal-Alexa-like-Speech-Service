@@ -133,7 +133,10 @@ While programming, we don't have to worry about about that speech recognition pr
 The first step is to install all necessary libraries. 
 
 * **numpy**
-** short definition 
+** &rightarrow; for working with numerical data 
+
+NumPy (Numerical Python) is an open source Python library used in most scientific and technical fields. It is the standard for working with numerical data in Python. It is used to perform mathematical operations on arrays, such as trigonometric, algebraic and statistical routines. The library contains a lot of mathematical, algebraic and transformation functions.
+
 * **Speech Recognition** 
 ** &rightarrow; speech to text 
 
