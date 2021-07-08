@@ -31,6 +31,7 @@ To start very easy we wrote down the following short use case:
 We want to implement the features listed below:
 
    * &rightarrow; Give information about the weather „Hello Hal, hows the weather today?“  
+   * &rightarrow; Give information about the time
    * &rightarrow; Open a browser (google.com)  
    * &rightarrow; Set an alarm  
    * &rightarrow; Turn on music  
