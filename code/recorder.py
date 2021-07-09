@@ -16,8 +16,8 @@ class Recorder:
         with mic as source:
             r.adjust_for_ambient_noise(source)
             audio = r.listen(source)
-        with sr.Microphone() as source:
-            audio_data = r.record(source, duration=5)
+        # with sr.Microphone() as source:
+        #    audio_data = r.record(source, duration=5)
         self.spoken_words = r.recognize_google(audio)
 
         return True

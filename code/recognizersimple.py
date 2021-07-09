@@ -12,12 +12,16 @@ class RecognizerSimple(Recognizer):
 
     def recognize(self, doc: Doc = None):
         self.answer = "bla bla bla"
+        self.text = doc.text
 
         if self.compare(self.text, ["How old are you?", "What is your age?"]):
             self.answer = "I am 100000 years old."
             return True
         if self.text == "What is your name?":
             self.answer = "My name is Hal."
+            return True
+        if self.text == "Hello?":
+            self.answer = "Hello Dave."
             return True
         if self.compare(self.text, ["Open Google." "Open browser."]):
             self.answer = "I open google.com for you."
