@@ -10,8 +10,9 @@
 - - - -
 
 ## 1) Business Understanding 🧠
-- Description and understanding of the business question or problem
-- Goal: What was the task to be accomplished? What was intended to achieve?
+
+*In our Business Understanding the business question and problem is described. The goal and what we intended to archieved is written down in detail.* 
+
 
 ### Use Case 
 
