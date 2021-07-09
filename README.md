@@ -25,6 +25,7 @@ To start very easy we wrote down the following short use case:
 
 **Target** :memo:
   * &rightarrow; The goal is to develop a voice control system that responds to the command: "Hello Hal"
+  * &rightarrow; After "Hello Hal" the program starts listening and gives out an answer 
   * &rightarrow; It should contain the follwing features which are mentioned below and give action to that. 
 
 **Features**
