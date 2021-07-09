@@ -7,10 +7,10 @@ class RecognizerSimple(Recognizer):
 
     def __init__(self, doc: Doc = None):
         self.doc = doc
-        self.text = doc.text
+        self.text = ""
         self.answer = ""
 
-    def recognize(self):
+    def recognize(self, doc: Doc = None):
         self.answer = "bla bla bla"
 
         if self.compare(self.text, ["How old are you?", "What is your age?"]):

@@ -11,7 +11,7 @@ class Hal:
     """
     def __init__(self):
         self.listener = Listener()
-        self.spoken_words = self.listener.listen()
+        self.spoken_words = ""
         self.interpreter = Interpreter()
 
     def activate(self):
@@ -37,6 +37,7 @@ class Hal:
 
     def start_listening(self):
         self.interpreter.execute(self.spoken_words)
+        self.spoken_words = self.listener.listen()
 
     @staticmethod
     def error(message=''):
