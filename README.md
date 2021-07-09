@@ -10,8 +10,9 @@
 - - - -
 
 ## 1) Business Understanding 🧠
-- Description and understanding of the business question or problem
-- Goal: What was the task to be accomplished? What was intended to achieve?
+
+*In our Business Understanding the business question and problem is described. The goal and what we intended to archieved is written down in detail.* 
+
 
 ### Use Case 
 
@@ -24,6 +25,7 @@ To start very easy we wrote down the following short use case:
 
 **Target** :memo:
   * &rightarrow; The goal is to develop a voice control system that responds to the command: "Hello Hal"
+  * &rightarrow; After "Hello Hal" the program starts listening and gives out an answer 
   * &rightarrow; It should contain the follwing features which are mentioned below and give action to that. 
 
 **Features**
@@ -33,12 +35,12 @@ We want to implement the features listed below:
    * &rightarrow; Give information about the weather „Hello Hal, hows the weather today?“  
    * &rightarrow; Give information about the time
    * &rightarrow; Open a browser (google.com)  
-   * &rightarrow; Set an alarm  
-   * &rightarrow; Turn on music  
+   * &rightarrow; Set an alarm   
    * &rightarrow; „Hello Hal, tell me a joke“  
    * &rightarrow; Implement google standard answers  
    * &rightarrow; Save document (e. g. speech to text)  
    * &rightarrow; Compute two numbers 
+   * &rightarrow Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
 
 ### Process Flow Chart 
 
@@ -81,12 +83,12 @@ In the following, we wrote a description of which classes are implemented and wh
 - Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
 
  **Class: Interpreter** ⏳
+- The interpreter recognises an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
  
  **Class: Utilities** (file utilities.py) 📂
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
 -
  **Class: Recognizer**
-
 
 
 
@@ -267,6 +269,6 @@ or
 ## 4) Summary :construction:
 - summary if the targets have been archieved and if not describe reasons 
 
-
+## 5) Potential future developments:
 
 
