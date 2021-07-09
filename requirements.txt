@@ -1,5 +1,4 @@
 speech_recognition
 pyaudio
-
-# spacy
+spacy
 pyttsx3

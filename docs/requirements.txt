@@ -1,6 +1,0 @@
-speech_recognition
-pyaudio
-wave
-spacy
-pyttsx3
-numpy
