@@ -83,6 +83,7 @@ In the following, we wrote a description of which classes are implemented and wh
 - Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
 
  **Class: Interpreter** ⏳
+- The interpreter recognises an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
  
  **Class: Utilities** (file utilities.py) 📂
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
