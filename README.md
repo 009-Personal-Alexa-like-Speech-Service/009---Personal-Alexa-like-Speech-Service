@@ -33,12 +33,12 @@ We want to implement the features listed below:
    * &rightarrow; Give information about the weather „Hello Hal, hows the weather today?“  
    * &rightarrow; Give information about the time
    * &rightarrow; Open a browser (google.com)  
-   * &rightarrow; Set an alarm  
-   * &rightarrow; Turn on music  
+   * &rightarrow; Set an alarm   
    * &rightarrow; „Hello Hal, tell me a joke“  
    * &rightarrow; Implement google standard answers  
    * &rightarrow; Save document (e. g. speech to text)  
    * &rightarrow; Compute two numbers 
+   * &rightarrow Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
 
 ### Process Flow Chart 
 
@@ -86,7 +86,6 @@ In the following, we wrote a description of which classes are implemented and wh
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
 -
  **Class: Recognizer**
-
 
 
 
