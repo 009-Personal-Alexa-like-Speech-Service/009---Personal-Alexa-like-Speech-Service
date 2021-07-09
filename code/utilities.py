@@ -1,29 +1,31 @@
 import os
 from typing import List
+
 DAVE_STANDARD_ANSWER = "Sorry Dave, I am afraid I can't do this."
+
 
 def clear_screen():
     # for mac and linux(here, os.name is 'posix')
     if os.name == 'posix':
         _ = os.system('clear')
     else:
-        # for windows platfrom
+        # for windows platform
         _ = os.system('cls')
 
 
 def compare(text: str, phrases: List[str]):
     text = text.lower().strip()
-    finaltext = ""
+    final_text = ""
     for character in text:
         if character.isalnum() or character.isspace():
-            finaltext += character
+            final_text += character
     for phrase in phrases:
         phrase = phrase.lower().strip()
         finalphrase = ""
         for character in phrase:
             if character.isalnum() or character.isspace():
                 finalphrase += character
-        if finaltext == finalphrase:
+        if final_text == finalphrase:
             return True
 
     return False

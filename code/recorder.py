@@ -1,6 +1,10 @@
 import speech_recognition as sr
 
-class Recorder():
+
+class Recorder:    
+    def __init__(self):
+        self.spoken_words = ""
+    
     def play(self):
         pass
 
@@ -17,14 +21,3 @@ class Recorder():
         self.spoken_words = r.recognize_google(audio)
 
         return True
-
-
-
-
-
-
-
-
-
-
-

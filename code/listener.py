@@ -1,12 +1,16 @@
-from recorder import Recorder
 import utilities
-
 from recorder import Recorder
 
-class Listener():
+
+class Listener:
+    """
+    The class listener returns the record spoken words as a text.
+    """
+
     def __init__(self):
         self.recorder = Recorder()
         self.text = ""
+
     def listen(self):
         self.text = ""
         utilities.clear_screen()
@@ -21,5 +25,3 @@ class Listener():
 if __name__ == "__main__":
     listener = Listener()
     listener.listen()
-
-

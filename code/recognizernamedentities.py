@@ -7,8 +7,8 @@ class RecognizerNamedEntities(Recognizer):
     """
     Recognizes named entities like people names, city names etc.
     """
-    def __init__(self):
-        self.doc = None
+    def __init__(self, doc: Doc = None):
+        self.doc = doc
         self.answer = utilities.DAVE_STANDARD_ANSWER
 
     def recognize(self, doc: Doc):

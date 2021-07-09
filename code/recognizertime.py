@@ -1,19 +1,16 @@
-from recognizer import Recognizer
-# Import time library
-
-from recognizer import Recognizer
-import spacy
-from spacy.tokens import Doc
-# Import time library
-import time
 import utilities
+from recognizer import Recognizer
+from spacy.tokens import Doc
 from datetime import datetime
 
-class Recognizer_time(Recognizer):
 
+class RecognizerTime(Recognizer):
+
+    def __init__(self, doc: Doc = None):
+        self.doc = doc
+        self.answer = ""
 
     def recognize(self, doc: Doc):
-        self.doc = doc
         self.answer = utilities.DAVE_STANDARD_ANSWER
 
         if utilities.compare(doc.text, ["What time is it", "How late is it", "What's the time"]):

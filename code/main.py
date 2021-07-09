@@ -1,5 +1,6 @@
 from hal import Hal
 
+
 def main():
     h = Hal()
     h.activate()
@@ -7,4 +8,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

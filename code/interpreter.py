@@ -1,25 +1,26 @@
 import spacy
 import utilities
 from speaker import Speaker
-from recognizer_simple_math import Recognizer_simple_math
-from recognizer_simple import Recognizer_simple
+from recognizersimplemath import RecognizerSimpleMath
+from recognizersimple import RecognizerSimple
 from recognizernamedentities import RecognizerNamedEntities
-from recognizer_time import Recognizer_time
+from recognizertime import RecognizerTime
 
 
 class Interpreter:
     """
-    Bla bla
+    The interpreter recognises an input of spoken words and is able to process the correct answer which is defined
+    in each of our recognizer classes.
     """
     def __init__(self):
         self.spoken_words = None
         self.speaker = Speaker()
         self.doc = None
         self.recognizers = []
-        self.recognizers.append(Recognizer_simple())
-        self.recognizers.append(Recognizer_simple_math())
+        self.recognizers.append(RecognizerSimple())
+        self.recognizers.append(RecognizerSimpleMath())
         self.recognizers.append(RecognizerNamedEntities())
-        self.recognizers.append(Recognizer_time())
+        self.recognizers.append(RecognizerTime())
         self.nlp = spacy.load("en_core_web_sm")
         self.answer = utilities.DAVE_STANDARD_ANSWER
 

@@ -1,3 +1,3 @@
-class Recording():
+class Recording:
     def play(self):
         pass

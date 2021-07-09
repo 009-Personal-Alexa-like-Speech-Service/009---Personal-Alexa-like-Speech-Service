@@ -1,14 +1,16 @@
 from recognizer import Recognizer
 from typing import List
-import spacy
 from spacy.tokens import Doc
 
 
-class Recognizer_simple(Recognizer):
+class RecognizerSimple(Recognizer):
 
-    def recognize(self, doc:Doc):
+    def __init__(self, doc: Doc = None):
         self.doc = doc
-        self.text = str(doc)
+        self.text = doc.text
+        self.answer = ""
+
+    def recognize(self):
         self.answer = "bla bla bla"
 
         if self.compare(self.text, ["How old are you?", "What is your age?"]):
@@ -20,7 +22,8 @@ class Recognizer_simple(Recognizer):
         if self.compare(self.text, ["Open Google." "Open browser."]):
             self.answer = "I open google.com for you."
             return True
-        if self.compare(self.text, ["How are you?", "How are you doing?", "How are you feeling today?", "What is up?", "How is everything?", "How have you been?", "What are you up to?"]):
+        if self.compare(self.text, ["How are you?", "How are you doing?", "How are you feeling today?", "What is up?",
+                                    "How is everything?", "How have you been?", "What are you up to?"]):
             self.answer = "I'm feeling good dave and you?"
             return True
         if self.compare(self.text, ["Tell me a joke.", "Do you know a joke?", "Tell me something funny."]):
@@ -29,20 +32,20 @@ class Recognizer_simple(Recognizer):
 
         return False
 
-
-    def compare(self, text:str, phrases:List[str]):
+    @staticmethod
+    def compare(text: str, phrases: List[str]):
         text = text.lower().strip()
-        finaltext = ""
+        final_text = ""
         for character in text:
             if character.isalnum() or character.isspace():
-                finaltext += character
+                final_text += character
         for phrase in phrases:
             phrase = phrase.lower().strip()
-            finalphrase = ""
+            final_phrase = ""
             for character in phrase:
                 if character.isalnum() or character.isspace():
-                    finalphrase += character
-            if finaltext == finalphrase:
+                    final_phrase += character
+            if final_text == final_phrase:
                 return True
 
         return False

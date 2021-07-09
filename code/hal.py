@@ -1,14 +1,17 @@
 import sys
-
-
+import utilities
 from interpreter import Interpreter
 from listener import Listener
-import utilities
 
 
-class Hal():
+class Hal:
+    """
+    Hal is our speech assistant and he starts to record spoken words after someone said "Hello Hal".
+    And the speech assistant "Hal" reacts with an answer.
+    """
     def __init__(self):
         self.listener = Listener()
+        self.spoken_words = self.listener.listen()
         self.interpreter = Interpreter()
 
     def activate(self):
@@ -32,17 +35,10 @@ class Hal():
             else:
                 input("Wrong command please press enter to continue and repeat")
 
-
     def start_listening(self):
-        self.spoken_words = self.listener.listen()
         self.interpreter.execute(self.spoken_words)
 
-    def error(self, message=''):
+    @staticmethod
+    def error(message=''):
         print(message)
         input('Invalid input. Please press enter to continue. ')
-
-
-
-
-
-
