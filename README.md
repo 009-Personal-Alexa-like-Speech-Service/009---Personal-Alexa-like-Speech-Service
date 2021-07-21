@@ -164,8 +164,13 @@ spaCy is a huge library with many functions. Below we list a few of these functi
 
 
 The goal of natural language processing is to make language and texts understandable for computers in order to operate or control them by speech. To extract meaning from speech or texts, it is necessary to understand not only individual words, but also entire sentences, contexts or topics. 
-Natural Language Processing starts with tokenisation. In this step, the text is divided into tokens. Tokens are words, spaces or punctuation marks. There are models with their own tokenisation rules for each language. Part-of-speech (POS) tagging assigns grammatical properties such as verb, adjective, noun or adverb to the words.
+
+Natural Language Processing starts with tokenisation. In this step, the text is divided into tokens. Tokens are words, spaces or punctuation marks. There are models with their own tokenisation rules for each language. 
+
+Part-of-speech (POS) tagging assigns grammatical properties such as verb, adjective, noun or adverb to the words.
+
 Another step is lemmatisation. Here, the individual words are traced back to their basic forms. 
+
 With the help of Named Entity Recognition (NER), it is possible to assign persons, places, times or other objects such as company names to the recognised entities. 
 Dependency parsing assigns syntax dependencies to the identified and tagged tokens. Word vectors are used to describe and recognise relationships between words. 
 
