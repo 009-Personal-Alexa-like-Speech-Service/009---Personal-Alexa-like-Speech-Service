@@ -184,6 +184,7 @@ Dependency parsing assigns syntax dependencies to the identified and tagged toke
 **  &rightarrow; text to speech conversion
 
 Is a text-to-speech conversion library used in Python. It works offline and is compatible with Python 2 and 3.
+In our case it is used to make the computer talk to us.
 
 
 
