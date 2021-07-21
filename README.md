@@ -253,4 +253,8 @@ or
 
 ## 5) Potential future developments:
 
+**Spacy**
+If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. 
+Spacy would then function like a chatbot.
+
 
