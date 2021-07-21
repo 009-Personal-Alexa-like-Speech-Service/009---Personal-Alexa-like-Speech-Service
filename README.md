@@ -158,44 +158,20 @@ Pyaudio is a Python link for PortAudio, a cross-platform audio input and output 
 * **spacy**
 **  &rightarrow; natural language processing 
 
-spaCy is a huge library with many function. Below we listed a few of these function as an overview. 
-
-spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python.
-
-spaCy comes with pretrained pipelines and currently supports tokenization and training for 60+ languages. It features state-of-the-art speed and neural network models for tagging, parsing, named entity recognition, text classification and more, multi-task learning with pretrained transformers like BERT, as well as a production-ready training system and easy model packaging, deployment and workflow management. spaCy is commercial open-source software, released under the MIT license.
+spaCy is a huge library with many functions. Below we list a few of these function as an overview. It is a open source library for Natural Language Processing (NLP) in Python. Natural Language Processing captures natural language and texts and processes them with the help of algorithms and other rules. 
 
 <img width="515" alt="image" src="https://user-images.githubusercontent.com/83068247/123808167-cb549200-d8f0-11eb-9878-4093c406b6f1.png">
 
 
-**1. Tokenization** 
+The goal of natural language processing is to make language and texts understandable for computers in order to operate or control them by speech. To extract meaning from speech or texts, it is necessary to understand not only individual words, but also entire sentences, contexts or topics. 
+Natural Language Processing starts with tokenisation. In this step, the text is divided into tokens. Tokens are words, spaces or punctuation marks. There are models with their own tokenisation rules for each language. Part-of-speech (POS) tagging assigns grammatical properties such as verb, adjective, noun or adverb to the words.
+Another step is lemmatisation. Here, the individual words are traced back to their basic forms. 
+With the help of Named Entity Recognition (NER), it is possible to assign persons, places, times or other objects such as company names to the recognised entities. 
+Dependency parsing assigns syntax dependencies to the identified and tagged tokens. Word vectors are used to describe and recognise relationships between words. 
 
-Word tokens are the basic units of text that appear in any NLPlabeling task. The first step in processing text is to break it into tokens.
-Import the Spacy language class to create an NLP object of this class with the code shown in the following code. Then process your document using the NLP object and put some text data or your text file into it to process it. Select the token you want to print and then print the output using the "Token and Text" function to get the value in text form.
 
 <img width="542" alt="image" src="https://user-images.githubusercontent.com/83068247/123808008-a6601f00-d8f0-11eb-833e-7cd011f4b2f7.png">
 
-
-**2. Labeling of word types**
-
-When we learn basic grammar, we understand the difference between nouns, verbs, adjectives, and adverbs, and while it may seem pointless at the time, it turns out to be a crucial element of natural language processing.
-
-Spacy provides convenient tools to break sentences into word lists and then assign each word to a specific part of speech based on the context.
-
-**3. Name entity recognition**
-
-One of the most common labeling problems is finding entities in the text. Typically, name entity recognition represents the names of politicians, actors, and famous places, as well as organizations and products available in that organization's market.
-
-Simply import the Spacy and Load model and process the text with nlp, then iterate over each entity and print its label.
-
-**4. Dependency parsing**
-
-The main concept of dependency parsing is that each linguistic unit (words) is connected by a directed linkage. These links are called dependencies in linguistics.
-
-**5. Matcher**
-
-The Matcher is very powerful and allows you to start many NLP-based tasks, such as entity extraction, finding patterns that match in the text or document.
-
-Import the Spacy, Matcher and initialize the matcher with the document and define a pattern you want to find in the document. Then add the pattern to the matcher. Then print the matches in the matcher documents.
 
 
 
