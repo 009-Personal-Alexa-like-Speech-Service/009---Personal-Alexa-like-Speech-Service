@@ -158,12 +158,17 @@ In our case it is used to make the computer talk to us.
 
 
 In the following, we wrote a description of which classes are implemented and what functions they contain. We would like to create an appropriate GitHub repository with our code and a detailled description. 
+
+
  **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
+ - The main file actives our Hal class. 
  
  * **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
 - He starts  to record audio when option 1 in the main menu is chosen
 - After three seconds of break he stopps recording 
 - If he does not understand the spoken words he gives an error
+- If option 2 is chosen he turns off
+- And if another input is give, Hal says that he did not understand and asks to repeat the input 
 
  **Class: Recorder** (file recorder.py) :video_camera:
 - The Recorder class imports "speech recognition" as a library. 
@@ -180,8 +185,10 @@ In the following, we wrote a description of which classes are implemented and wh
  
  **Class: Utilities** (file utilities.py) 📂
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
--
+- Furthermore we defined Hals standard answer "Sorry Dave, I'm afraid I can't do this"
+
  **Class: Recognizer**
+ - The recognizer is our main class for natural language processing. It works with inheritance for all the classes listed below and also named "Recognizer..." 
  
  **Class: Recognizertime**
 - tbd
