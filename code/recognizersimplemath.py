@@ -3,6 +3,14 @@ from spacy.tokens import Doc
 
 
 class RecognizerSimpleMath(Recognizer):
+    """
+    With an input of numbers, Hal is able to return the correct answer due to the mathematical implementation of
+    the given operators. Which are defined in this class. Also the statistical methods like the interpreter function
+    is able to analyze the syntax for nouns and verbs and finds named entities, phrases and concepts. The dump function
+    returns for the tokens which are contained in the document which returns token attributes like readable string
+    representations of an attribute. And the isfloat function returns a true for a numeric float or false if it's not
+    the case.
+    """
 
     def __init__(self, doc: Doc = None):
         self.doc = doc

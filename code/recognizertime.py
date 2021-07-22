@@ -5,6 +5,10 @@ from datetime import datetime
 
 
 class RecognizerTime(Recognizer):
+    """
+    This class returns the current time of the following questions. And returns a standard answer if it's not one of the
+    defined questions.
+    """
 
     def __init__(self, doc: Doc = None):
         self.doc = doc

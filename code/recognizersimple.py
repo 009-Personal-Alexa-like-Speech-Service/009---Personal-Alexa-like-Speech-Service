@@ -4,6 +4,9 @@ from spacy.tokens import Doc
 
 
 class RecognizerSimple(Recognizer):
+    """
+    This class returns in comparison to a default text the correct answer to an input question.
+    """
 
     def __init__(self, doc: Doc = None):
         self.doc = doc
