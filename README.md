@@ -65,35 +65,6 @@ The project started April 2021 und will be finised in August 2021. It was carrie
 (Source:https://towardsdatascience.com/speech-recognition-in-python-the-complete-beginners-guide-de1dd7f00726)
 
 
-### Defined classes 
-
-
-In the following, we wrote a description of which classes are implemented and what functions they contain. We would like to create an appropriate GitHub repository with our code and a detailled description. 
- **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
- 
- * **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
-- He starts  to record audio when option 1 in the main menu is chosen
-- After three seconds of break he stopps recording 
-- If he does not understand the spoken words he gives an error
-
- **Class: Recorder** (file recorder.py) :video_camera:
-- The Recorder class imports "speech recognition" as a library. 
-- We defined a microphone and that the recording will stopp after three seconds of break. 
-
- **Class: Listener** :ear:
- 
- **Class: Speaker** (file speaker.py) 🔈
-- Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
-
- **Class: Interpreter** ⏳
-- The interpreter recognises an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
- 
- **Class: Utilities** (file utilities.py) 📂
-- We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
--
- **Class: Recognizer**
-
-
 
 **To get a complete overview about the business problem it was necessary for us to understand how the speech recognition process itself works.** 
 
@@ -190,7 +161,33 @@ Is a text-to-speech conversion library used in Python. It works offline and is c
 In our case it is used to make the computer talk to us.
 
 
+### Defined classes 
 
+
+In the following, we wrote a description of which classes are implemented and what functions they contain. We would like to create an appropriate GitHub repository with our code and a detailled description. 
+ **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
+ 
+ * **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
+- He starts  to record audio when option 1 in the main menu is chosen
+- After three seconds of break he stopps recording 
+- If he does not understand the spoken words he gives an error
+
+ **Class: Recorder** (file recorder.py) :video_camera:
+- The Recorder class imports "speech recognition" as a library. 
+- We defined a microphone and that the recording will stopp after three seconds of break. 
+
+ **Class: Listener** :ear:
+ 
+ **Class: Speaker** (file speaker.py) 🔈
+- Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
+
+ **Class: Interpreter** ⏳
+- The interpreter recognises an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
+ 
+ **Class: Utilities** (file utilities.py) 📂
+- We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
+-
+ **Class: Recognizer**
 
 - - - -
 
@@ -249,8 +246,9 @@ or
 #### 2. Achievements  
 
 In this part we want to give a detailed description how the speech recogntion is used and what features we implemented. 
-* To start our speech recognition the "main"-class should be run. You will be asked if the speech assistant Hal should start listening (press button 1) or if Hal should turn off (press button 2). 
-* If number 1 is chosen 
+* To start our speech recognition the "main"-class should be run. You will be asked if the speech assistant Hal should start listening (press button 1) or if Hal should turn off (press button 2). If another input than 1 or 2 is given Hal will tell you it was a "wrong command"
+* If number 1 is chosen Hal tells you that he is activated now and starts listening. 
+* Now we have various options 
 
 - - - -
 
@@ -259,7 +257,7 @@ In this part we want to give a detailed description how the speech recogntion is
 ## 4) Summary :construction:
 - summary if the targets have been archieved and if not describe reasons 
 
-All in all it can be said that the task to develop a speech recognition service was successfully completed. Due to the lack of time we were not able to implement al the features we wanted to add to the speech recognition. 
+All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "Potential future development". 
 Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs.
 
 ## 5) Potential future developments:
