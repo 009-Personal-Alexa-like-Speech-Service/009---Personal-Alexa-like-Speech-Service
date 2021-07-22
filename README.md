@@ -1,4 +1,3 @@
-![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
 # 009 - Personal Alexa-like Speech Service :loudspeaker:
 ## Implement an Alexa alike speech service in Python "Natural Language Processing"
 
@@ -54,8 +53,7 @@ The project started April 2021 und will be finised in August 2021. It was carrie
 
 ### Crisp-DM :arrows_counterclockwise:
 
-![image](https://user-images.githubusercontent.com/83068247/122058489-f4066300-cdeb-11eb-9eb3-748da4dc36f1.png)
-
+![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
 
 
 
