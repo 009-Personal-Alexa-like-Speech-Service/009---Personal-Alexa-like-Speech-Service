@@ -25,6 +25,59 @@
 * The speech recognition software analyzes the digital signal to register phonemes, units of sound that distinguish one word from another in a particular language.
 * The phenomes are reconstructed into words.
 
+* Speech recognition software works by breaking down the audio of a speech recording into individual sounds, analyzing each sound, using algorithms to find the most probable word fit in that language, and transcribing those sounds into text.
+
+**Business Objectives**
+* The goal is to develop a voice control system that responds to the command: "Hello Hal"
+
+**Business Success Criteria**
+* Language Support 
+* The solution should be capable of multi-language support and detect words/phrases with an high accuracy.
+
+
+**1.2 Assess Situation**
+
+**Inventory of Resources, Requirements, Assumptions and Constraint**
+&rightarrow; Here are the different models used to build a speech recognition system:
+
+* Acoustic: Take the waveform of speech and break it up into small fragments to predict the most likely phonemes in the speech.
+* Pronunciation: Take the sounds and tie them together to make words, i.e. associate words with their phonetic representations.
+* Language: Take the words and tie them together to make sentences, i.e. predict the most likely sequence of words (or text strings) among several a set of text strings.
+
+**Risks and Contingencies Terminology. Costs and Benefits**
+* To further highlight the challenge, speech recognition systems have to be able to distinguish between homophones (words with the same pronunciation but different meanings), to learn the difference between proper names and separate words (“Tim Cook” is a person, not a request for Tim to cook), and more.
+* After all, speech recognition accuracy is what determines whether voice assistants become a valuable accessory.
+
+&rightarrow;	Word-error rate has its limitations, though. The data is affected by factors like:
+- Background noise
+- Crosstalk
+- Accents
+- Rare words
+- Context
+
+
+**1.3 Determine Data Miniing Goals**
+
+**Data Mining Goals**
+* General speech recognition (text to speech & speech to text)
+* Segmentation of captured speech into words, phrases and sentences
+* Function recognition of individual words within a sentence (i.e. subject, verb, object, etc.)
+* analysis of sentence context, sentence relationships and entities
+
+**Data Mining Success Criteria**
+* Human language is complex and does not always follow logical rules. Words have many variants and meanings, some of which can only be grasped through the context of the content. Thus, it is extremely difficult for programs to recognize subliminal meanings in texts. 
+-	This is why it is essential for the software to use an extensive structured database. 
+-	The more data available, the better the language models work in recognizing patterns and rules.
+
+
+**1.4 Produce Project Plan**
+
+**Project Plan**
+- tbd
+
+**Initial Assessment of Tools and Techniques**
+- tbd
+
 
 ### Use Case 
 
