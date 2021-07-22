@@ -18,6 +18,7 @@
 **1.1 Determine Business Objectives**
 
 **Background**
+
 ** &rightarrow; The basic basic steps for how speech recognition technology works are as follow:
 * A microphone transmits the vibrations of a person’s voice into a wavelike electrical signal.
 * This signal in turn is converted by the system’s hardware—a computer’s sound card, for examples—into a digital signal.
