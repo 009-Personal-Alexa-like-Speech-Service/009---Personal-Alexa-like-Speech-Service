@@ -248,7 +248,9 @@ or
 
 #### 2. Achievements  
 
-To start our speech recognition the "main"-class should be run. You will be asked if the speech assistant Hal should start listening (press button 1) or if Hal should turn off (press button 2) 
+In this part we want to give a detailed description how the speech recogntion is used and what features we implemented. 
+* To start our speech recognition the "main"-class should be run. You will be asked if the speech assistant Hal should start listening (press button 1) or if Hal should turn off (press button 2). 
+* If number 1 is chosen 
 
 - - - -
 
@@ -256,6 +258,9 @@ To start our speech recognition the "main"-class should be run. You will be aske
 
 ## 4) Summary :construction:
 - summary if the targets have been archieved and if not describe reasons 
+
+All in all it can be said that the task to develop a speech recognition service was successfully completed. Due to the lack of time we were not able to implement al the features we wanted to add to the speech recognition. 
+Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs.
 
 ## 5) Potential future developments:
 
