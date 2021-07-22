@@ -1,3 +1,4 @@
+![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
 # 009 - Personal Alexa-like Speech Service :loudspeaker:
 ## Implement an Alexa alike speech service in Python "Natural Language Processing"
 
