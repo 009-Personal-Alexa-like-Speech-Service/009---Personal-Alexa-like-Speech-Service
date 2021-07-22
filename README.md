@@ -13,6 +13,16 @@
 
 *In our Business Understanding the business question and problem is described. The goal and what we intended to archieved is written down in detail.* 
 
+## Read me specify Business Understanding (CRISP DM) 
+
+**1.1 Determine Business Objectives**
+*Background
+- The basic basic steps for how speech recognition technology works are as follow:
+o	A microphone transmits the vibrations of a person’s voice into a wavelike electrical signal.
+o	This signal in turn is converted by the system’s hardware—a computer’s sound card, for examples—into a digital signal.
+o	The speech recognition software analyzes the digital signal to register phonemes, units of sound that distinguish one word from another in a particular language.
+o	The phenomes are reconstructed into words.
+
 
 ### Use Case 
 
