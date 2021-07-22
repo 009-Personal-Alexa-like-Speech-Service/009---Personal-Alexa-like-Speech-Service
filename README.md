@@ -42,11 +42,13 @@ We want to implement the features listed below:
    * &rightarrow; Compute two numbers 
    * &rightarrow Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
 
+
 ### Process Flow Chart 
 
 Below we designed a flow chart how our speech recognition works in three steps:
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
 
+The project started April 2021 und will be finised in August 2021. It was carried out as a part of our masters degress "Business Analytics". 
 
 ### Crisp-DM :arrows_counterclockwise:
 
@@ -65,7 +67,8 @@ Below we designed a flow chart how our speech recognition works in three steps:
 
 ### Defined classes 
 
-In the following, we wrote a description of which classes are implemented and what functions they contain. 
+
+In the following, we wrote a description of which classes are implemented and what functions they contain. We would like to create an appropriate GitHub repository with our code and a detailled description. 
  **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
  
  * **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
@@ -92,7 +95,7 @@ In the following, we wrote a description of which classes are implemented and wh
 
 
 
-**To get a complete overview about the business problem it is necessary to understand how the speech recognition process itself works.** 
+**To get a complete overview about the business problem it was necessary for us to understand how the speech recognition process itself works.** 
 
 1. **Configure Microphone**: It is advisable to specify the microphone during the program to avoid any glitches.
 2. **Set Chunk Size:** This basically involved specifying how many bytes of data we want to read at once. Typically, this value is specified in powers of 2 such as 1024 or 2048
@@ -214,8 +217,8 @@ After the pip command is installed, the installation of PyAudio should work as w
 * "install homebrew"
 afterwards use:
 * brew install portaudio
-* pip install pyaudio :heavy_check_mark:
-* *https://www.youtube.com/watch?v=1oolnK1g6jw* &rightarrow; This youtube video explains step by step how to install PyAudio on a Mac
+* pip install pyaudio 
+* *https://www.youtube.com/watch?v=1oolnK1g6jw* &rightarrow; This youtube video explains step by step how to install PyAudio on a Mac :heavy_check_mark:
 
 or
 
@@ -243,6 +246,9 @@ or
 ![image](https://user-images.githubusercontent.com/83068247/122056101-91ac6300-cde9-11eb-9ed2-5768d8b7567e.png)
 
 
+#### 2. Achievements  
+
+To start our speech recognition the "main"-class should be run. You will be asked if the speech assistant Hal should start listening (press button 1) or if Hal should turn off (press button 2) 
 
 - - - -
 
