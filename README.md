@@ -194,16 +194,19 @@ In the following, we wrote a description of which classes are implemented and wh
  - The recognizer is our main class for natural language processing. It works with inheritance for all the classes listed below and also named "Recognizer..." 
  
  **Class: Recognizertime**
-- tbd
+-  This class returns the current time of the following questions. And returns a standard answer if it's not one of the defined questions.
 
  **Class: Recognizersimple**
- - tbd
+ - This class returns in comparison to a default text the correct answer to an input question.
 
  **Class: Recognizersimplemath**
- - tbd
+ - With an input of numbers, Hal is able to return the correct answer due to the mathematical implementation of the given operators. Which are defined in this 
+   class. Also the statistical methods like the interpreter function is able to analyze the syntax for nouns and verbs and finds named entities, phrases and    
+   concepts. The dump function returns for the tokens which are contained in the document which returns token attributes like readable string representations of an  
+   attribute. And the isfloat function returns a true for a numeric float or false if it's not the case.
 
  **Class: Recognizernamedentities**
- - tbd 
+ - Recognizes named entities like people names, city names etc.
 
 - - - -
 
