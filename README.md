@@ -24,9 +24,10 @@ To start very easy we wrote down the following short use case:
   * You: No problem, I'm a Python hero!
 
 **Target** :memo:
-  * &rightarrow; The goal is to develop a voice control system that responds to the command: "Hello Hal"
-  * &rightarrow; After "Hello Hal" the program starts listening and gives out an answer 
-  * &rightarrow; It should contain the follwing features which are mentioned below and give action to that. 
+
+Out goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
+It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
+  
 
 **Features**
 
@@ -258,13 +259,13 @@ In this part we want to give a detailed description how the speech recogntion is
 - summary if the targets have been archieved and if not describe reasons 
 
 All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "Potential future development". 
-Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs.
+Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. 
+So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
 
 ## 5) Potential future developments:
 
 **Spacy** &rightarrow;
 
-* If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. 
-Spacy would then function like a chatbot.
-*Furthermore it would be possible to understand a wide range of languages. E. g. Spanish, German and Chinese is implemented in Spacy. 
-*Test-driven-development
+* If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
+* Furthermore it would be possible to understand a wide range of languages. E. g. Spanish, German and Chinese is implemented in Spacy. 
+* Test-driven-development
