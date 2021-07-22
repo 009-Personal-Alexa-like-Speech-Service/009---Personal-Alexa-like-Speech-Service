@@ -27,7 +27,7 @@ To start very easy we wrote down the following short use case:
 
 Out goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
 It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
-  
+The project started April 2021 und will be finised in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
 
 **Features**
 
@@ -49,7 +49,7 @@ We want to implement the features listed below:
 Below we designed a flow chart how our speech recognition works in three steps:
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
 
-The project started April 2021 und will be finised in August 2021. It was carried out as a part of our masters degress "Business Analytics". 
+
 
 ### Crisp-DM :arrows_counterclockwise:
 
