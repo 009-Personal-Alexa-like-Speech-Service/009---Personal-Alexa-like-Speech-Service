@@ -61,12 +61,18 @@ The project started April 2021 und will be finised in August 2021. It was carrie
 
 ### How Speech Recognition Works – An Overview
 
+**To get a complete overview about the business problem it was necessary for us to understand how the speech recognition process itself works.** 
+
+To show the speech recognition process in an easy way we added the figure below. 
+
+![Bildschirmfoto 2021-07-22 um 14 50 18](https://user-images.githubusercontent.com/83067079/126641716-979eb9bd-42e0-4e97-9cf4-ecb88914520a.png)
+
 <img width="1151" alt="Bildschirmfoto 2021-06-10 um 10 44 41" src="https://user-images.githubusercontent.com/83067079/121494423-055d0300-c9d9-11eb-8d8d-4617f08a481a.png">
 (Source:https://towardsdatascience.com/speech-recognition-in-python-the-complete-beginners-guide-de1dd7f00726)
 
 
 
-**To get a complete overview about the business problem it was necessary for us to understand how the speech recognition process itself works.** 
+
 
 The first component of speech recognition is speech. Speech must be **converted from physical sound to an electrical signal** with a microphone, and then to **digital data with an analog-to-digital converter**. Once the speech is digitized, several models can be used to transcribe the audio to text. Most modern speech recognition systems rely on **Hidden Markov Model (HMM).** This approach works on the assumption that a speech signal, when viewed on a short enough timescale, can be reasonably approximated as a stationary process—that is, a process in which statistical properties do not change over time.
 
