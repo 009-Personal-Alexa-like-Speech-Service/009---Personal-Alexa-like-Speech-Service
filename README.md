@@ -33,15 +33,15 @@ It should contain the follwing features which are mentioned below and give actio
 
 We want to implement the features listed below:
 
-   * &rightarrow; Give information about the weather „Hello Hal, hows the weather today?“  
-   * &rightarrow; Give information about the time
-   * &rightarrow; Open a browser (google.com)  
-   * &rightarrow; Set an alarm   
-   * &rightarrow; „Hello Hal, tell me a joke“  
-   * &rightarrow; Implement google standard answers  
-   * &rightarrow; Save document (e. g. speech to text)  
-   * &rightarrow; Compute two numbers 
-   * &rightarrow Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
+   * Recognize simple question e. g. "How are you", "What is your name?" or „Hello Hal, tell me a joke“
+   * Give information about the weather „Hello Hal, hows the weather today?“  
+   * Give information about the time
+   * Open a browser (google.com)  
+   * Set an alarm     
+   * Implement google standard answers  
+   * Save document (e. g. speech to text)  
+   * Compute two numbers 
+   * Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
 
 
 ### Process Flow Chart 
@@ -69,26 +69,19 @@ The project started April 2021 und will be finised in August 2021. It was carrie
 
 **To get a complete overview about the business problem it was necessary for us to understand how the speech recognition process itself works.** 
 
-1. **Configure Microphone**: It is advisable to specify the microphone during the program to avoid any glitches.
+The first component of speech recognition is speech. Speech must be **converted from physical sound to an electrical signal** with a microphone, and then to **digital data with an analog-to-digital converter**. Once the speech is digitized, several models can be used to transcribe the audio to text. Most modern speech recognition systems rely on **Hidden Markov Model (HMM).** This approach works on the assumption that a speech signal, when viewed on a short enough timescale, can be reasonably approximated as a stationary process—that is, a process in which statistical properties do not change over time.
+
+One can imagine that this whole process may be computationally expensive. In many modern speech recognition systems, neural networks are used to simplify the speech signal using techniques for feature transformation and dimensionality reduction before HMM recognition. Voice activity detectors (VADs) are also used to reduce an audio signal to only the portions that are likely to contain speech. This prevents the recognizer from wasting time analyzing unnecessary parts of the signal.
+
+While programming, we don't have to worry about about that speech recognition process. There are several speech services/ packages available to help us with that. But we will explained the used packages later on. 
+*(Source: https://realpython.com/python-speech-recognition/)*
+
+1. **Configure Microphone**: It is advisable to specify the microphone during the program to avoid any glitches (use laptop microphone or headphones)
 2. **Set Chunk Size:** This basically involved specifying how many bytes of data we want to read at once. Typically, this value is specified in powers of 2 such as 1024 or 2048
 3. **Set Sampling Rate:** Sampling rate defines how often values are recorded for processing
 4. **Set Device ID to the selected microphone:** In this step, we specify the device ID of the microphone that we wish to use in order to avoid ambiguity in case there are multiple microphones. This also helps debug, in the sense that, while running the program, we will know whether the specified microphone is being recognized. During the program, we specify a parameter device_id. The program will say that device_id could not be found if the microphone is not recognized.
 5. **Allow Adjusting for Ambient Noise:** Since the surrounding noise varies, we must allow the program a second or too to adjust the energy threshold of recording so it is adjusted according to the external noise level.
 6. **Speech to text translation:** This is done with the help of Google Speech Recognition. This requires an active internet connection to work. However, there are certain offline Recognition systems such as PocketSphinx, but have a very rigorous installation process that requires several dependencies. Google Speech Recognition is one of the easiest to use.
-
-The first component of speech recognition is speech. Speech must be **converted from physical sound to an electrical signal** with a microphone, and then to **digital data with an analog-to-digital converter**. Once the speech is digitized, several models can be used to transcribe the audio to text.
-
-Most modern speech recognition systems rely on **Hidden Markov Model (HMM).** This approach works on the assumption that a speech signal, when viewed on a short enough timescale, can be reasonably approximated as a stationary process—that is, a process in which statistical properties do not change over time.
-
-In a typical HMM, the speech **signal is divided into 10-millisecond fragments.** The power spectrum of each fragment, which is essentially a plot of the signal’s power as a function of frequency, is mapped to a vector of real numbers known as cepstral coefficients. The dimension of this vector is usually small—sometimes as low as 10, although more accurate systems may have dimension 32 or more. The final output of the HMM is a **sequence of these vectors.**
-
-To decode the **speech into text,** groups of vectors are matched to one or more phonemes—a fundamental unit of speech. This calculation requires training, since the sound of a phoneme varies from speaker to speaker, and even varies from one utterance to another by the same speaker. A special algorithm is then applied to determine the most likely word (or words) that produce the given sequence of phonemes.
-
-One can imagine that this whole process may be computationally expensive. In many modern speech recognition systems, neural networks are used to simplify the speech signal using techniques for feature transformation and dimensionality reduction before HMM recognition. Voice activity detectors (VADs) are also used to reduce an audio signal to only the portions that are likely to contain speech. This prevents the recognizer from wasting time analyzing unnecessary parts of the signal.
-
-While programming, we don't have to worry about about that speech recognition process. There are several speech services/ packages available to help us with that. But we will explained the used packages later on. 
-
-*(Source: https://realpython.com/python-speech-recognition/)*
 
 
 
@@ -178,6 +171,7 @@ In the following, we wrote a description of which classes are implemented and wh
 - We defined a microphone and that the recording will stopp after three seconds of break. 
 
  **Class: Listener** :ear:
+ - The Listener class returns the spoken words as a text. 
  
  **Class: Speaker** (file speaker.py) 🔈
 - Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
@@ -189,6 +183,18 @@ In the following, we wrote a description of which classes are implemented and wh
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
 -
  **Class: Recognizer**
+ 
+ **Class: Recognizertime**
+- tbd
+
+ **Class: Recognizersimple**
+ - tbd
+
+ **Class: Recognizersimplemath**
+ - tbd
+
+ **Class: Recognizernamedentities**
+ - tbd 
 
 - - - -
 
@@ -248,8 +254,14 @@ or
 
 In this part we want to give a detailed description how the speech recogntion is used and what features we implemented. 
 * To start our speech recognition the "main"-class should be run. You will be asked if the speech assistant Hal should start listening (press button 1) or if Hal should turn off (press button 2). If another input than 1 or 2 is given Hal will tell you it was a "wrong command"
-* If number 1 is chosen Hal tells you that he is activated now and starts listening. 
-* Now we have various options 
+* If number 1 is chosen Hal tells you that he is activated now, starts listening and says that he needs three seconds break before he answers. 
+* Now we have various options what to ask and say to Hal:
+* 1. What's his name or how old he is (commands: "How old are you?", "What is your age?", "What is your name?"
+* 2. How he is feeling today (e. g. command: "How are you?")
+* 3. Or ask him for a joke (e. g. command: "Tell me a joke"
+* 4. Ask about the current time (e. g. command: "What's the time?")
+* 5. Ask for a simple math taks (e. g. "5 * 5")
+* In the next step Hal will give you an answer. If he did not undestand what you said, he will ask to repeat. 
 
 - - - -
 
