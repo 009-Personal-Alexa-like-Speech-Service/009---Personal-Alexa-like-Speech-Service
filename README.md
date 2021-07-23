@@ -206,7 +206,7 @@ Part-of-speech (POS) tagging assigns grammatical properties such as verb, adject
 
 Another step is lemmatisation. Here, the individual words are traced back to their basic forms. 
 
-With the help of Named Entity Recognition (NER), it is possible to assign persons, places, times or other objects such as company names to the recognised entities. 
+With the help of Named Entity Recognition, it is possible to assign persons, places, times or other objects like company names to the recognised entities. 
 Dependency parsing assigns syntax dependencies to the identified and tagged tokens. Word vectors are used to describe and recognise relationships between words. 
 
 
@@ -216,7 +216,7 @@ Dependency parsing assigns syntax dependencies to the identified and tagged toke
 
 
 * **pyttsx3**
-**  &rightarrow; text to speech conversion
+  &rightarrow; text to speech conversion
 
 Is a text-to-speech conversion library used in Python. It works offline and is compatible with Python 2 and 3.
 In our case it is used to make the computer talk to us.
