@@ -170,12 +170,12 @@ While programming, we don't have to worry about about that speech recognition pr
 The first step is to install all necessary libraries. 
 
 * **numpy**
-** &rightarrow; for working with numerical data 
+ &rightarrow; for working with numerical data 
 
 NumPy (Numerical Python) is an open source Python library used in most scientific and technical fields. It is the standard for working with numerical data in Python. It is used to perform mathematical operations on arrays, such as trigonometric, algebraic and statistical routines. The library contains a lot of mathematical, algebraic and transformation functions.
 
 * **Speech Recognition** 
-** &rightarrow; speech to text 
+ &rightarrow; speech to text 
 
 Google has a speech recognition API. This API converts spoken text (microphone) to written text (Python string), called Speech to Text. You can simply speak into the microphone and the Google API will translate it into written text. This program takes the audio from your microphone, sends it to the Speech API, and returns a Python string.
 
@@ -183,7 +183,7 @@ The audio is recorded using a speech recognition module, which is included in th
 
 
 * **PyAudio**
-** &rightarrow;  for usage of audio input and output
+ &rightarrow;  for usage of audio input and output
 
 Pyaudio is a Python link for PortAudio, a cross-platform audio input and output library. This basically means that we can use Pyaudio to record and play audio across all platforms and operating systems, such as Windows, Mac and Linux.
 
@@ -191,7 +191,7 @@ Pyaudio is a Python link for PortAudio, a cross-platform audio input and output 
 
 
 * **spacy**
-**  &rightarrow; natural language processing 
+  &rightarrow; natural language processing 
 
 spaCy is a huge library with many functions. Below we list a few of these function as an overview. It is a open source library for Natural Language Processing (NLP) in Python. Natural Language Processing captures natural language and texts and processes them with the help of algorithms and other rules. 
 
