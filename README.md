@@ -170,12 +170,12 @@ While programming, we don't have to worry about about that speech recognition pr
 The first step is to install all necessary libraries. 
 
 * **numpy**
-** &rightarrow; for working with numerical data 
+ &rightarrow; for working with numerical data 
 
 NumPy (Numerical Python) is an open source Python library used in most scientific and technical fields. It is the standard for working with numerical data in Python. It is used to perform mathematical operations on arrays, such as trigonometric, algebraic and statistical routines. The library contains a lot of mathematical, algebraic and transformation functions.
 
 * **Speech Recognition** 
-** &rightarrow; speech to text 
+ &rightarrow; speech to text 
 
 Google has a speech recognition API. This API converts spoken text (microphone) to written text (Python string), called Speech to Text. You can simply speak into the microphone and the Google API will translate it into written text. This program takes the audio from your microphone, sends it to the Speech API, and returns a Python string.
 
@@ -183,7 +183,7 @@ The audio is recorded using a speech recognition module, which is included in th
 
 
 * **PyAudio**
-** &rightarrow;  for usage of audio input and output
+ &rightarrow;  for usage of audio input and output
 
 Pyaudio is a Python link for PortAudio, a cross-platform audio input and output library. This basically means that we can use Pyaudio to record and play audio across all platforms and operating systems, such as Windows, Mac and Linux.
 
@@ -191,7 +191,7 @@ Pyaudio is a Python link for PortAudio, a cross-platform audio input and output 
 
 
 * **spacy**
-**  &rightarrow; natural language processing 
+  &rightarrow; natural language processing 
 
 spaCy is a huge library with many functions. Below we list a few of these function as an overview. It is a open source library for Natural Language Processing (NLP) in Python. Natural Language Processing captures natural language and texts and processes them with the help of algorithms and other rules. 
 
@@ -206,7 +206,7 @@ Part-of-speech (POS) tagging assigns grammatical properties such as verb, adject
 
 Another step is lemmatisation. Here, the individual words are traced back to their basic forms. 
 
-With the help of Named Entity Recognition (NER), it is possible to assign persons, places, times or other objects such as company names to the recognised entities. 
+With the help of Named Entity Recognition, it is possible to assign persons, places, times or other objects like company names to the recognised entities. 
 Dependency parsing assigns syntax dependencies to the identified and tagged tokens. Word vectors are used to describe and recognise relationships between words. 
 
 
@@ -216,7 +216,7 @@ Dependency parsing assigns syntax dependencies to the identified and tagged toke
 
 
 * **pyttsx3**
-**  &rightarrow; text to speech conversion
+  &rightarrow; text to speech conversion
 
 Is a text-to-speech conversion library used in Python. It works offline and is compatible with Python 2 and 3.
 In our case it is used to make the computer talk to us.
@@ -231,7 +231,7 @@ In the following, we wrote a description of which classes are implemented and wh
  **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
  - The main file actives our Hal class. 
  
- * **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
+**Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
 - He starts  to record audio when option 1 in the main menu is chosen
 - After three seconds of break he stopps recording 
 - If he does not understand the spoken words he gives an error
@@ -266,8 +266,7 @@ In the following, we wrote a description of which classes are implemented and wh
 
  **Class: Recognizersimplemath**
  - With an input of numbers, Hal is able to return the correct answer due to the mathematical implementation of the given operators. Which are defined in this 
-   class. Also the statistical methods like the interpreter function is able to analyze the syntax for nouns and verbs and finds named entities, phrases and  concepts. The dump function returns for the tokens which are contained in the document which returns token attributes like readable string representations of an attribute. 
-And the isfloat function returns a true for a numeric float or false if it's not the case.
+   class. Also the statistical methods like the interpreter function is able to analyze the syntax for nouns and verbs and finds named entities, phrases and  concepts. The dump function returns for the tokens which are contained in the document which returns token attributes like readable string representations of an attribute. And the isfloat function returns a true for a numeric float or false if it's not the case.
 
  **Class: Recognizernamedentities**
  - Recognizes named entities like people names, city names etc.
@@ -357,3 +356,4 @@ So nevertheless we were not able to implement all the features we wanted to, the
 * If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
 * Furthermore it would be possible to understand a wide range of languages. E. g. Spanish, German and Chinese is implemented in Spacy. 
 * Test-driven-development
+* Implement furhter libraries e. g. &rightarrow; https://towardsdatascience.com/named-entity-recognition-ner-with-bert-in-spark-nlp-874df20d1d77
