@@ -231,7 +231,7 @@ In the following, we wrote a description of which classes are implemented and wh
  **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
  - The main file actives our Hal class. 
  
- * **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
+**Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
 - He starts  to record audio when option 1 in the main menu is chosen
 - After three seconds of break he stopps recording 
 - If he does not understand the spoken words he gives an error
@@ -266,8 +266,7 @@ In the following, we wrote a description of which classes are implemented and wh
 
  **Class: Recognizersimplemath**
  - With an input of numbers, Hal is able to return the correct answer due to the mathematical implementation of the given operators. Which are defined in this 
-   class. Also the statistical methods like the interpreter function is able to analyze the syntax for nouns and verbs and finds named entities, phrases and  concepts. The dump function returns for the tokens which are contained in the document which returns token attributes like readable string representations of an attribute. 
-And the isfloat function returns a true for a numeric float or false if it's not the case.
+   class. Also the statistical methods like the interpreter function is able to analyze the syntax for nouns and verbs and finds named entities, phrases and  concepts. The dump function returns for the tokens which are contained in the document which returns token attributes like readable string representations of an attribute. And the isfloat function returns a true for a numeric float or false if it's not the case.
 
  **Class: Recognizernamedentities**
  - Recognizes named entities like people names, city names etc.
