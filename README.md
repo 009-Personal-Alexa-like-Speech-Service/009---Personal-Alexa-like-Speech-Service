@@ -101,6 +101,9 @@ We want to implement the features listed below:
    * Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
 
 
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/83068247/126769181-02856317-7fe9-441d-88bc-3736bfaf9fa2.png">
+
+
 ### Process Flow Chart 
 
 Below we designed a flow chart how our speech recognition works in three steps:
