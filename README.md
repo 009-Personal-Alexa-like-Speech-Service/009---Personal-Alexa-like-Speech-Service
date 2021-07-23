@@ -266,6 +266,12 @@ In the following, we wrote a description of which classes are implemented and wh
  **Class: Recognizernamedentities**
  - Recognizes named entities like people names, city names etc.
 
+
+<img width="579" alt="image" src="https://user-images.githubusercontent.com/83068247/126769739-0260daea-d009-4236-b585-61c11eb690f9.png">
+
+[Untitled (1).pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868101/Untitled.1.pdf)
+
+
 - - - -
 
 
