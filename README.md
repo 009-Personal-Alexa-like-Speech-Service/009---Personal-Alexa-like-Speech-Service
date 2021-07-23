@@ -107,7 +107,8 @@ Below we designed a flow chart how our speech recognition works in three steps:
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
 
 
-
+Now we designed a detailled process: 
+<img width="962" alt="Bildschirmfoto 2021-07-23 um 12 19 01" src="https://user-images.githubusercontent.com/83067079/126768886-f7f9e831-3c47-464d-9731-83259b80f65b.png">
 
 [Flowchart.pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868056/Flowchart.pdf)
 
