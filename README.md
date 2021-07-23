@@ -13,6 +13,53 @@
 
 *In our Business Understanding the business question and problem is described. The goal and what we intended to archieved is written down in detail.* 
 
+
+### Use Case 
+
+**Example: program a Speech Regognition**
+To start very easy we wrote down the following short use case:
+
+  * Me: HAL, please... Can someone else help me?
+
+  * You: No problem, I'm a Python hero!
+
+**Target** :memo:
+
+Out goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
+It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
+The project started April 2021 und will be finised in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
+
+**Features**
+
+We want to implement the features listed below:
+
+   * Recognize simple question e. g. "How are you", "What is your name?" or „Hello Hal, tell me a joke“
+   * Give information about the weather „Hello Hal, hows the weather today?“  
+   * Give information about the time
+   * Open a browser (google.com)  
+   * Set an alarm     
+   * Implement google standard answers  
+   * Save document (e. g. speech to text)  
+   * Compute two numbers 
+   * Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
+
+
+Now we designed a detailled process: 
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/83068247/126769181-02856317-7fe9-441d-88bc-3736bfaf9fa2.png">
+
+[Flowchart.pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868056/Flowchart.pdf)
+
+### Process Flow Chart 
+
+Below we designed a flow chart how our speech recognition works in three steps:
+<img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
+
+
+
+### Crisp-DM :arrows_counterclockwise:
+
+![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
+
 ## Read me specify Business Understanding (CRISP DM) 
 
 **1.1 Determine Business Objectives**
@@ -68,60 +115,6 @@
 * Human language is complex and does not always follow logical rules. Words have many variants and meanings, some of which can only be grasped through the context of the content. Thus, it is extremely difficult for programs to recognize subliminal meanings in texts. 
 -	This is why it is essential for the software to use an extensive structured database. 
 -	The more data available, the better the language models work in recognizing patterns and rules.
-
-
-
-### Use Case 
-
-**Example: program a Speech Regognition**
-To start very easy we wrote down the following short use case:
-
-  * Me: HAL, please... Can someone else help me?
-
-  * You: No problem, I'm a Python hero!
-
-**Target** :memo:
-
-Out goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
-It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
-The project started April 2021 und will be finised in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
-
-**Features**
-
-We want to implement the features listed below:
-
-   * Recognize simple question e. g. "How are you", "What is your name?" or „Hello Hal, tell me a joke“
-   * Give information about the weather „Hello Hal, hows the weather today?“  
-   * Give information about the time
-   * Open a browser (google.com)  
-   * Set an alarm     
-   * Implement google standard answers  
-   * Save document (e. g. speech to text)  
-   * Compute two numbers 
-   * Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
-
-
-<img width="802" alt="image" src="https://user-images.githubusercontent.com/83068247/126769181-02856317-7fe9-441d-88bc-3736bfaf9fa2.png">
-
-
-### Process Flow Chart 
-
-Below we designed a flow chart how our speech recognition works in three steps:
-<img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
-
-
-Now we designed a detailled process: 
-<img width="962" alt="Bildschirmfoto 2021-07-23 um 12 19 01" src="https://user-images.githubusercontent.com/83067079/126768886-f7f9e831-3c47-464d-9731-83259b80f65b.png">
-
-[Flowchart.pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868056/Flowchart.pdf)
-
-
-
-
-### Crisp-DM :arrows_counterclockwise:
-
-![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
-
 
 
 
