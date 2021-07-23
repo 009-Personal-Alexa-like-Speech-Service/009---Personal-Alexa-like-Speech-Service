@@ -70,14 +70,6 @@
 -	The more data available, the better the language models work in recognizing patterns and rules.
 
 
-**1.4 Produce Project Plan**
-
-**Project Plan**
-- tbd
-
-**Initial Assessment of Tools and Techniques**
-- tbd
-
 
 ### Use Case 
 
