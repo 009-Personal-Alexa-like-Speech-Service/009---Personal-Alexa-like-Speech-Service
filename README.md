@@ -56,7 +56,7 @@
 - Context
 
 
-**1.3 Determine Data Miniing Goals**
+**1.3 Determine Data Mining Goals**
 
 **Data Mining Goals**
 * General speech recognition (text to speech & speech to text)
@@ -105,6 +105,12 @@ We want to implement the features listed below:
 
 Below we designed a flow chart how our speech recognition works in three steps:
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
+
+
+
+
+[Flowchart.pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868056/Flowchart.pdf)
+
 
 
 
