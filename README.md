@@ -357,6 +357,14 @@ So nevertheless we were not able to implement all the features we wanted to, the
 
 We started to interpret easy commands like simple questions (e.g. "How are you Hal?"). Now we can implement further functions like a command to open a browser if the user uses the words "open browser". Also it's possible and necessary to filter out background noises or maybe to just take the loudest voice, when it comes to crosstalk. Also keywords can be selected to helb the NLP to process the language understanding when differnet accents are uswed in different languages.
 
+**Voice-Tech (Healthcare):**
+AI-powered chatbots and virtual assistants played a vital role in the fight against COVID-19. So chatbots can help screen and triage patients. Voice and conversational AI have made health services more accessible to everyone who was unable to leave their home during COVID-19 restrictions. Now that patients have a taste for what is possible with voice and healthcare, behaviors are not likely to go back to re-pandemic norms. 
+
+**Voice Cloning:**
+Machine learning tech and GPU power development help to create a custom voice  and make the speech more emotional, which makes this computer-generated voice indistinguishable from the real one. You just use a recorded speech and then a voice conversion technology transforms your voice into another. 
+
+
+
 **Spacy** &rightarrow;
 
 * If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
