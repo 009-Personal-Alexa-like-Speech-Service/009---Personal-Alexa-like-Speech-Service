@@ -237,33 +237,33 @@ In the following, we wrote a description of which classes are implemented and wh
 - The Recorder class imports "speech recognition" as a library. 
 - We defined a microphone and that the recording will stopp after three seconds of break. 
 
- **Class: Listener** :ear:
+ **Class: Listener** (file listener.py) :ear:
  - The Listener class returns the spoken words as a text. 
  
  **Class: Speaker** (file speaker.py) 🔈
 - Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
 
- **Class: Interpreter** ⏳
+ **Class: Interpreter** (file interpreter.py) ⏳
 - The interpreter recognises an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
  
  **Class: Utilities** (file utilities.py) 📂
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
 - Furthermore we defined Hals standard answer "Sorry Dave, I'm afraid I can't do this"
 
- **Class: Recognizer**
+ **Class: Recognizer** (file recognizer.py)
  - The recognizer is our main class for natural language processing. It works with inheritance for all the classes listed below and also named "Recognizer..." 
  
- **Class: Recognizertime**
+ **Class: Recognizertime** (file recognizertime.py)
 -  This class returns the current time of the following questions. And returns a standard answer if it's not one of the defined questions.
 
- **Class: Recognizersimple**
+ **Class: Recognizersimple** (file recognizersimple.py)
  - This class returns in comparison to a default text the correct answer to an input question.
 
- **Class: Recognizersimplemath**
+ **Class: Recognizersimplemath** (file recognizersimplemath.py)
  - With an input of numbers, Hal is able to return the correct answer due to the mathematical implementation of the given operators. Which are defined in this 
    class. Also the statistical methods like the interpreter function is able to analyze the syntax for nouns and verbs and finds named entities, phrases and  concepts. The dump function returns for the tokens which are contained in the document which returns token attributes like readable string representations of an attribute. And the isfloat function returns a true for a numeric float or false if it's not the case.
 
- **Class: Recognizernamedentities**
+ **Class: Recognizernamedentities** (recognizernamedentities.py)
  - Recognizes named entities like people names, city names etc.
 
 
