@@ -355,6 +355,8 @@ So nevertheless we were not able to implement all the features we wanted to, the
 
 ## 5) Potential future developments:
 
+We started to interpret easy commands like simple questions (e.g. "How are you Hal?"). Now we can implement further functions like a command to open a browser if the user uses the words "open browser". Also it's possible and necessary to filter out background noises or maybe to just take the loudest voice, when it comes to crosstalk. Also keywords can be selected to helb the NLP to process the language understanding when differnet accents are uswed in different languages.
+
 **Spacy** &rightarrow;
 
 * If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
