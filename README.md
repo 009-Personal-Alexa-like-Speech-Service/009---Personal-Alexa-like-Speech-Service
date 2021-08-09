@@ -349,6 +349,14 @@ In this part we want to give a detailed description how the speech recogntion is
 ## 4) Summary :construction:
 - summary if the targets have been archieved and if not describe reasons 
 
+In the Recognizer simple we have defined answers for certain sentences. Both upper and lower case letters as well as punctuation marks are removed so that there are no problems with the input.
+
+In the Recognizer Simple Math, simple mathematical operations such as addition, subtraction, division and multiplication can be performed with single digit numbers.
+
+With the Recognizer Time, the current time is output with the help of defined input sentences.
+
+With the Recognizer Named Entities, the entities recognised by spacy, such as cities or proper names, are output.
+
 All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "Potential future development". 
 Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. 
 So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
