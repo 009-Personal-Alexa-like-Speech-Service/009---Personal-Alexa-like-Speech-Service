@@ -21,7 +21,7 @@
 4. [Summary](#summary)
 5. [Potential Future Developments](#potential_future_developments)
 
-## This is the introduction <a name="#asses_situation"></a>
+## This is the introduction <a name="#methological_approach"></a>
 Some introduction text, formatted in heading 2 style
 
 ### Sub paragraph <a name="#subparagraph1"></a>
@@ -180,7 +180,7 @@ While programming, we don't have to worry about about that speech recognition pr
 - - - -
 
 
-## 2) Methological approach
+## 2) Methological approach <a name="#methological_approach"></a>
 
 The first step is to install all necessary libraries. 
 
