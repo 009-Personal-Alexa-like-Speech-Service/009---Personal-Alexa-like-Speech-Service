@@ -15,30 +15,40 @@
     1. [Sub paragraph](#subparagraph1)
 3. [Another paragraph](#paragraph2)
 
+## This is the introduction <a name="introduction"></a>
+Some introduction text, formatted in heading 2 style
 
+## Some paragraph <a name="paragraph1"></a>
+The first paragraph text
+
+### Sub paragraph <a name="subparagraph1"></a>
+This is a sub paragraph, formatted in heading 3 style
+
+## Another paragraph <a name="paragraph2"></a>
+The second paragraph text
 
 
 ## Table of Content
 
-###1. Business Understanding(#introduction)
+1. Business Understanding
 
- 1.1 [Determine business objectives ](#subparagraph1)
+ 1.1 Determine business objectives 
  
- 1.2 [Assess situation](#subparagraph2)
+ 1.2 Assess situation
  
- 1.3 Determine data mining goals(#subparagraph3)
+ 1.3 Determine data mining goals
  
-###2. Methological approach(#paragraph1)
+2. Methological approach
 
-###3. Findings and achievements(#paragraph2)
+3. Findings and achievements
 
- 3.1 Problems(#subparagraph1)
+ 3.1 Problems
  
- 3.2 Achievements(#subparagraph1)
+ 3.2 Achievements
  
-###4. Summary(#paragraph3)
+4. Summary
 
-###5. Potential future developments(#paragraph4)
+5. Potential future developments
 
 
 
