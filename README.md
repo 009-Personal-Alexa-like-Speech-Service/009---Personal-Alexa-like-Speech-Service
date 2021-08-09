@@ -11,12 +11,12 @@
 
 # Table of contents
 1. [Business Understanding](#business_understanding)
-    1. [Determine business objectives](#subparagraph1)
-    2. [Asses situation](#subparagraph2)
-    3. [Determine data mining goals](#subparagraph3)
+    1. [Determine Business Objectives](#subparagraph1)
+    2. [Asses Situation](#subparagraph2)
+    3. [Determine Data Mining Goals](#subparagraph3)
 2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph)
-4. [Another paragraph](#paragraph2)
+3. [Another paragraph](#paragraph2)
+    3.1 
 
 ## This is the introduction <a name="#asses_situation"></a>
 Some introduction text, formatted in heading 2 style
