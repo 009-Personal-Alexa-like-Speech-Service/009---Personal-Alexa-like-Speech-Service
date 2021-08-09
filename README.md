@@ -32,6 +32,7 @@
 ### 5. Potential future developments 
 
 
+
 ## 1) Business Understanding 🧠
 
 *In our Business Understanding the business question and problem is described. The goal and what we intended to archieved is written down in detail.* 
