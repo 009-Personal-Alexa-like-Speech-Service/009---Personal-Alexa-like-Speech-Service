@@ -11,7 +11,7 @@
 
 ## Table of Content
 
-1.Business Understanding
+1. Business Understanding
 
  1.1 Determine business objectives 
  
