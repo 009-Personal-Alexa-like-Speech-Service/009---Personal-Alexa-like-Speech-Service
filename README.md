@@ -370,4 +370,14 @@ Machine learning tech and GPU power development help to create a custom voice  a
 * If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
 * Furthermore it would be possible to understand a wide range of languages. E. g. Spanish, German, Chinese and 60 more languages are implemented in Spacy. 
 * Test-driven-development
-* Implement furhter libraries e. g. &rightarrow; https://towardsdatascience.com/named-entity-recognition-ner-with-bert-in-spark-nlp-874df20d1d77
+
+**Implement further libraries** &rightarrow;* https://towardsdatascience.com/named-entity-recognition-ner-with-bert-in-spark-nlp-874df20d1d77
+
+* The **PySpark** library is used for machine learning. With the named entity recgnition and the **BERT** language model, which has already been trained with wikipedia articles, you can analyse texts according to structure and content.
+
+* With the **geturl** library you can open urls in python. 
+
+* With **pyowm** (PythonOpenWeatherMap) it is possible to query the weather by location.
+
+* You can also add a wake-up phrase like "hello hal", similar to Siri or Amazon Echo, instead of activating the voice recognition by pressing a button.
+
