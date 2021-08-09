@@ -368,7 +368,7 @@ Machine learning tech and GPU power development help to create a custom voice  a
 **Spacy** &rightarrow;
 
 * If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
-* Furthermore it would be possible to understand a wide range of languages. E. g. Spanish, German, Chinese and 60 more languages are implemented in Spacy. 
+* Furthermore it would be possible to understand a wide range of languages. For example Spanish, German, Chinese and 60 more languages are implemented in Spacy. 
 * Test-driven-development
 
 **Implement further libraries** &rightarrow;
