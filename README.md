@@ -20,7 +20,7 @@
 
 ## Table of Content
 
-### 1. Business Understanding(#introduction)
+###1. Business Understanding(#introduction)
 
  1.1 [Determine business objectives ](#subparagraph1)
  
@@ -28,17 +28,17 @@
  
  1.3 Determine data mining goals(#subparagraph3)
  
-### 2. Methological approach(#paragraph1)
+###2. Methological approach(#paragraph1)
 
-### 3. Findings and achievements(#paragraph2)
+###3. Findings and achievements(#paragraph2)
 
  3.1 Problems(#subparagraph1)
  
  3.2 Achievements(#subparagraph1)
  
-### 4. Summary(#paragraph3)
+###4. Summary(#paragraph3)
 
-### 5. Potential future developments (#paragraph4)
+###5. Potential future developments(#paragraph4)
 
 
 
