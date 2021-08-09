@@ -11,50 +11,21 @@
 
 # Table of contents
 1. [Business Understanding](#business_understanding)
-    1. [Determine Business Objectives](#paragraph1)
-    2. [Asses Situation](#paragraph2)
-    3. [Determine Data Mining Goals](#paragraph3)
-2. [Methological Approach](#paragrap)
-3. [Findings and Achievements](#paragrap)
-    1. [Problems]
-    2. [Achievements]
-4. [Summary]
-5. [Potential Future Developments]
+    1. [Determine Business Objectives](#determine_business_objectives)
+    2. [Asses Situation](#asses_situation)
+    3. [Determine Data Mining Goals](#determine_data_mining)
+2. [Methological Approach](#methological_approach)
+3. [Findings and Achievements](#findings_and_achievements)
+    1. [Problems](#problems)
+    2. [Achievements](#achievements)
+4. [Summary](#summary)
+5. [Potential Future Developments](#potential_future_developments)
 
 ## This is the introduction <a name="#asses_situation"></a>
 Some introduction text, formatted in heading 2 style
 
-## Some paragraph <a name="paragrap"></a>
-The first paragraph text
-
 ### Sub paragraph <a name="#subparagraph1"></a>
 This is a sub paragraph, formatted in heading 3 style
-
-## Another paragraph <a name="paragrap"></a>
-The second paragraph text
-
-
-## Table of Content
-
-1. Business Understanding
-
- 1.1 Determine business objectives 
- 
- 1.2 Assess situation
- 
- 1.3 Determine data mining goals
- 
-2. Methological approach
-
-3. Findings and achievements
-
- 3.1 Problems
- 
- 3.2 Achievements
- 
-4. Summary
-
-5. Potential future developments
 
 
 
