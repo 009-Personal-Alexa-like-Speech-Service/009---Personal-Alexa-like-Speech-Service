@@ -11,7 +11,7 @@
 
 # Table of contents
 1. [Business Understanding](#business_understanding)
-    1. [Determine business objectives](#determine_business_objectives)
+    1. [Determine business objectives](#subparagraph1)
     2. [Asses situation](#asses_situation)
 2. [Some paragraph](#paragraph1)
     1. [Sub paragraph](#subparagraph1)
@@ -23,7 +23,7 @@ Some introduction text, formatted in heading 2 style
 ## Some paragraph <a name="paragrap"></a>
 The first paragraph text
 
-### Sub paragraph <a name="subparagrap"></a>
+### Sub paragraph <a name="#subparagraph1"></a>
 This is a sub paragraph, formatted in heading 3 style
 
 ## Another paragraph <a name="paragrap"></a>
@@ -107,7 +107,7 @@ Below we designed a flow chart how our speech recognition works in three steps:
 
 ## Read me specify Business Understanding (CRISP DM) 
 
-**1.1 Determine Business Objectives** <a name="#determine_business_objectives"></a>
+**1.1 Determine Business Objectives** <a name="#subparagraph1"></a>
 
 **Background**
 
