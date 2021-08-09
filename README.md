@@ -9,7 +9,7 @@
 
 - - - -
 
-# Table of contents
+## Table of contents
 1. [Business Understanding](#business_understanding)
     1. [Determine Business Objectives](#determine_business_objectives)
     2. [Asses Situation](#asses_situation)
@@ -20,12 +20,6 @@
     2. [Achievements](#achievements)
 4. [Summary](#summary)
 5. [Potential Future Developments](#potential_future_developments)
-
-## This is the introduction <a name="potential_future_developments"></a>
-Some introduction text, formatted in heading 2 style
-
-### Sub paragraph <a name="#subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
 
 
 
