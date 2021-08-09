@@ -9,13 +9,22 @@
 
 - - - -
 
+# Table of contents
+1. [Introduction](#introduction)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
+
+
+
+
 ## Table of Content
 
 ### 1. Business Understanding
 
- 1.1 Determine business objectives 
+ 1.1 [Determine business objectives ](#Determine business objectives)
  
- 1.2 Assess situation
+ 1.2 [Assess situation](#paragraph1)
  
  1.3 Determine data mining goals
  
