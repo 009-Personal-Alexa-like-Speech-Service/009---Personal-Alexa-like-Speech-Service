@@ -371,7 +371,7 @@ Machine learning tech and GPU power development help to create a custom voice  a
 * Furthermore it would be possible to understand a wide range of languages. E. g. Spanish, German, Chinese and 60 more languages are implemented in Spacy. 
 * Test-driven-development
 
-**Implement further libraries** &rightarrow;* https://towardsdatascience.com/named-entity-recognition-ner-with-bert-in-spark-nlp-874df20d1d77
+**Implement further libraries** &rightarrow;
 
 * The **PySpark** library is used for machine learning. With the named entity recgnition and the **BERT** language model, which has already been trained with wikipedia articles, you can analyse texts according to structure and content.
 
