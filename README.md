@@ -349,7 +349,7 @@ In this part we want to give a detailed description how the speech recogntion is
 ## 4) Summary :construction:
 - summary if the targets have been archieved and if not describe reasons 
 
-All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "Potential future development". 
+All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "potential future developments". 
 Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. 
 So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
 
