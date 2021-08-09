@@ -21,7 +21,7 @@
 4. [Summary](#summary)
 5. [Potential Future Developments](#potential_future_developments)
 
-## This is the introduction <a name="#methological_approach"></a>
+## This is the introduction <a name="potential_future_developments"></a>
 Some introduction text, formatted in heading 2 style
 
 ### Sub paragraph <a name="#subparagraph1"></a>
@@ -180,7 +180,7 @@ While programming, we don't have to worry about about that speech recognition pr
 - - - -
 
 
-## 2) Methological approach <a name="#methological_approach"></a>
+## 2) Methological approach <a name="methological_approach"></a>
 
 The first step is to install all necessary libraries. 
 
@@ -299,12 +299,12 @@ In the following, we wrote a description of which classes are implemented and wh
 
 
 
-## 3) Findings and achievements :construction:
+## 3) Findings and achievements :construction: <a name="findings_and_achievements"></a>
 - Detailed description of approach, work, findings, concrete achievements 
 
 :warning: First we will start with problems we had during our project and how we solved these problems :warning:
 
-#### 1. Problems 
+#### 1. Problems <a name="problems"></a> 
 ##### 1.1 Installation 
 
 There was a problem to install the package "PyAudio". We found two different solutions for Mac and Windows to solve the shown error. 
@@ -349,7 +349,7 @@ or
 ![image](https://user-images.githubusercontent.com/83068247/122056101-91ac6300-cde9-11eb-9ed2-5768d8b7567e.png)
 
 
-#### 2. Achievements  
+#### 2. Achievements <a name="achievements"></a>  
 
 In this part we want to give a detailed description how the speech recogntion is used and what features we implemented. 
 * To start our speech recognition the "main"-class should be run. You will be asked if the speech assistant Hal should start listening (press button 1) or if Hal should turn off (press button 2). If another input than 1 or 2 is given Hal will tell you it was a "wrong command"
@@ -366,14 +366,14 @@ In this part we want to give a detailed description how the speech recogntion is
 
 
 
-## 4) Summary :construction:
+## 4) Summary :construction: <a name="summary"></a>
 - summary if the targets have been archieved and if not describe reasons 
 
 All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "potential future developments". 
 Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. 
 So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
 
-## 5) Potential future developments:
+## 5) Potential future developments: <a name="potential_future_developments"></a>
 
 We started to interpret easy commands like simple questions (e.g. "How are you Hal?"). Now we can implement further functions like a command to open a browser if the user uses the words "open browser". Also it's possible and necessary to filter out background noises or maybe to just take the loudest voice, when it comes to crosstalk. Also keywords can be selected to helb the NLP to process the language understanding when differnet accents are uswed in different languages.
 
