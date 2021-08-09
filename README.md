@@ -22,7 +22,7 @@
 
 ### 1. Business Understanding
 
- 1.1 [Determine business objectives ](#Determine business objectives)
+ 1.1 [Determine business objectives ](#introduction)
  
  1.2 [Assess situation](#paragraph1)
  
