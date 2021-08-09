@@ -111,7 +111,7 @@ Below we designed a flow chart how our speech recognition works in three steps:
 
 ## Read me specify Business Understanding (CRISP DM) 
 
-**1.1 Determine Business Objectives** <a name="#subparagraph1"></a>
+## 1.1 Determine Business Objectives <a name="#subparagraph1"></a>
 
 **Background**
 
@@ -131,7 +131,7 @@ Below we designed a flow chart how our speech recognition works in three steps:
 * The solution should be capable of multi-language support and detect words/phrases with an high accuracy.
 
 
-**1.2 Assess Situation** <a name="#asses_situation"></a>
+## 1.2 Assess Situation <a name="#asses_situation"></a>
 
 **Inventory of Resources, Requirements, Assumptions and Constraint**
 &rightarrow; Here are the different models used to build a speech recognition system:
@@ -152,7 +152,7 @@ Below we designed a flow chart how our speech recognition works in three steps:
 - Context
 
 
-**1.3 Determine Data Mining Goals**
+## 1.3 Determine Data Mining Goals
 
 **Data Mining Goals**
 * General speech recognition (text to speech & speech to text)
