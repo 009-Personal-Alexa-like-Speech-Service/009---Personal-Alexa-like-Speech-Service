@@ -10,7 +10,7 @@
 - - - -
 
 # Table of contents
-1. [Introduction](#introduction)
+1. [Business Understanding](#business understanding)
 2. [Some paragraph](#paragraph1)
     1. [Sub paragraph](#subparagraph1)
 3. [Another paragraph](#paragraph2)
@@ -52,7 +52,7 @@ The second paragraph text
 
 
 
-## 1) Business Understanding 🧠
+## 1) Business Understanding 🧠 <a name="business understanding"></a>
 
 *In our Business Understanding the business question and problem is described. The goal and what we intended to archieved is written down in detail.* 
 
