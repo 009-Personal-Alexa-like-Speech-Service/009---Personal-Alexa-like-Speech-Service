@@ -11,11 +11,13 @@
 
 # Table of contents
 1. [Business Understanding](#business_understanding)
+    1. [Determine business objectives](#determine_business_objectives)
+    2. [Asses situation](#asses_situation)
 2. [Some paragraph](#paragraph1)
     1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
+4. [Another paragraph](#paragraph2)
 
-## This is the introduction <a name="introduction"></a>
+## This is the introduction <a name="#asses_situation"></a>
 Some introduction text, formatted in heading 2 style
 
 ## Some paragraph <a name="paragraph1"></a>
@@ -105,7 +107,7 @@ Below we designed a flow chart how our speech recognition works in three steps:
 
 ## Read me specify Business Understanding (CRISP DM) 
 
-**1.1 Determine Business Objectives**
+**1.1 Determine Business Objectives** <a name="#determine_business_objectives"></a>
 
 **Background**
 
@@ -125,7 +127,7 @@ Below we designed a flow chart how our speech recognition works in three steps:
 * The solution should be capable of multi-language support and detect words/phrases with an high accuracy.
 
 
-**1.2 Assess Situation**
+**1.2 Assess Situation** <a name="#asses_situation"></a>
 
 **Inventory of Resources, Requirements, Assumptions and Constraint**
 &rightarrow; Here are the different models used to build a speech recognition system:
