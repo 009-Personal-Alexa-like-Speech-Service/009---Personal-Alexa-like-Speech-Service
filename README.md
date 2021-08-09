@@ -11,11 +11,11 @@
 
 # Table of contents
 1. [Business Understanding](#business_understanding)
-    1. [Determine Business Objectives](#1_1)
-    2. [Asses Situation](#1_2)
-    3. [Determine Data Mining Goals](#1_3)
-2. [Methological Approach](#paragraph2)
-3. [Findings and Achievements](#paragraph3)
+    1. [Determine Business Objectives](#paragraph1)
+    2. [Asses Situation](#paragraph2)
+    3. [Determine Data Mining Goals](#paragraph3)
+2. [Methological Approach](#paragrap)
+3. [Findings and Achievements](#paragrap)
     1. [Problems]
     2. [Achievements]
 4. [Summary]
