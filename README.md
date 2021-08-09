@@ -20,13 +20,13 @@
 ## This is the introduction <a name="#asses_situation"></a>
 Some introduction text, formatted in heading 2 style
 
-## Some paragraph <a name="paragraph1"></a>
+## Some paragraph <a name="paragrap"></a>
 The first paragraph text
 
-### Sub paragraph <a name="subparagraph1"></a>
+### Sub paragraph <a name="subparagrap"></a>
 This is a sub paragraph, formatted in heading 3 style
 
-## Another paragraph <a name="paragraph2"></a>
+## Another paragraph <a name="paragrap"></a>
 The second paragraph text
 
 
