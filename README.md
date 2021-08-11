@@ -41,7 +41,7 @@ To start very easy we wrote down the following short use case:
 
 Out goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
 It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
-The project started April 2021 und will be finised in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
+The project started April 2021 und will be finished in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
 
 **Features**
 
@@ -71,6 +71,10 @@ Below we designed a flow chart how our speech recognition works in three steps:
 
 
 ### Crisp-DM :arrows_counterclockwise:
+
+We chose the Crips-DM methology (Cross-Industry-Process for Data Mining) as an approach for our project. CrispDM ensures a structured approach and can be used for any projects related to Data Science.
+
+On the following illustration the typical phases of the model are shown. It is not a linear process and moving back and forth between different phases as it is always required. The arrows in the following illustration show the most important and frequent dependencies between phases and the outer circle sympolizes the cyclic nature of data mining itself. 
 
 ![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
 
