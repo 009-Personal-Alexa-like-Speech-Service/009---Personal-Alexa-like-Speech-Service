@@ -138,8 +138,18 @@ On the following illustration the typical phases of the model are shown. It is n
 
 - - - -
 
-### Porject Organization
+### Projects Organization
 
+Since we are a team of three students who work together remotely a strucutred project organization was versy important for us. 
+
+* Backlog: Open issues that are not assigned yet.
+* ToDo: Open issues that have not yet been processed.
+* In progress: Issues that are assigned to a team member and are currently being worked on.
+* Done: Completed issues.
+
+* All these issues are labeled according to their topic, e.g. as "documentation", "coding", "bug", "discussion", etc.
+
+![Bildschirmfoto 2021-08-11 um 11 55 47](https://user-images.githubusercontent.com/83067079/129011259-44cf4a4a-fb29-4afb-8930-05c4c712f60e.png)
 
 
 - - - -
