@@ -1,3 +1,5 @@
+import sys
+
 from recognizer import Recognizer
 from typing import List
 from spacy.tokens import Doc
@@ -35,6 +37,10 @@ class RecognizerSimple(Recognizer):
             return True
         if self.compare(self.text, ["Tell me a joke.", "Do you know a joke?", "Tell me something funny."]):
             self.answer = "Did you hear about the monkeys who shared an Amazon account? They were Prime mates."
+            return True
+
+        if self.compare(self.text, ["Terminate yourself.", "Exit", "Quit", "End", "Stop listening."]):
+            sys.exit()
             return True
 
         return False

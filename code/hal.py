@@ -36,6 +36,7 @@ class Hal:
                 input("Wrong command please press enter to continue and repeat")
 
     def start_listening(self):
+        self.spoken_words = self.listener.listen()
         self.interpreter.execute(self.spoken_words)
         self.spoken_words = self.listener.listen()
 

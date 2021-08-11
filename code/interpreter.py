@@ -30,6 +30,7 @@ class Interpreter:
         if not spoken_words:
             print("error: Missing spoken words")
             return
+        self.spoken_words = spoken_words
         print(f"Hello Dave I understood: {self.spoken_words}")
 
         answer = ""
