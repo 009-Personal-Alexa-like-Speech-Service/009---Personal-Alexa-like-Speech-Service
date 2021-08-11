@@ -138,6 +138,12 @@ On the following illustration the typical phases of the model are shown. It is n
 
 - - - -
 
+### Porject Organization
+
+
+
+- - - -
+
 ### How Speech Recognition Works – An Overview
 
 **To get a complete overview about the business problem it was necessary for us to understand how the speech recognition process itself works.** 
