@@ -21,11 +21,10 @@
 4. [Summary](#summary)
 5. [Potential Future Developments](#potential_future_developments)
 
-- - 
 
 ## 1) Business Understanding 🧠 <a name="business_understanding"></a>
 
-*In our Business Understanding the business question and problem is described. The goal and what we intended to archieved is written down in detail.* 
+*In our Business Understanding the Business Question and problem is described. The goal and what we intended to archieved is written down in detail.* 
 
 
 ### Use Case 
@@ -68,7 +67,7 @@ Now we designed a detailled process:
 Below we designed a flow chart how our speech recognition works in three steps:
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
 
-
+- - - - - - - -
 
 ### Crisp-DM :arrows_counterclockwise:
 
