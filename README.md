@@ -9,13 +9,79 @@
 
 - - - -
 
-## 1) Business Understanding 🧠
+## Table of contents
+1. [Business Understanding](#business_understanding)
+    1. [Determine Business Objectives](#determine_business_objectives)
+    2. [Asses Situation](#asses_situation)
+    3. [Determine Data Mining Goals](#determine_data_mining)
+2. [Methological Approach](#methological_approach)
+3. [Findings and Achievements](#findings_and_achievements)
+    1. [Problems](#problems)
+    2. [Achievements](#achievements)
+4. [Summary](#summary)
+5. [Potential Future Developments](#potential_future_developments)
 
-*In our Business Understanding the business question and problem is described. The goal and what we intended to archieved is written down in detail.* 
 
-## Read me specify Business Understanding (CRISP DM) 
+## 1) Business Understanding 🧠 <a name="business_understanding"></a>
 
-**1.1 Determine Business Objectives**
+*In our Business Understanding the Business Question and problem is described. The goal and what we intended to archieved is written down in detail.* 
+
+
+### Use Case 
+
+**Example: program a Speech Regognition**
+To start very easy we wrote down the following short use case:
+
+  * Me: HAL, please... Can someone else help me?
+
+  * You: No problem, I'm a Python hero!
+
+**Target** :memo:
+
+Out goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
+It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
+The project started April 2021 und will be finished in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
+
+**Features**
+
+We want to implement the features listed below:
+
+   * Recognize simple question e. g. "How are you", "What is your name?" or „Hello Hal, tell me a joke“
+   * Give information about the weather „Hello Hal, hows the weather today?“  
+   * Give information about the time
+   * Open a browser (google.com)  
+   * Set an alarm     
+   * Implement google standard answers  
+   * Save document (e. g. speech to text)  
+   * Compute two numbers 
+   * Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
+
+
+Now we designed a detailled process: 
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/83068247/126769181-02856317-7fe9-441d-88bc-3736bfaf9fa2.png">
+
+[Flowchart.pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868056/Flowchart.pdf)
+
+### Process Flow Chart 
+
+Below we designed a flow chart how our speech recognition works in three steps:
+<img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
+
+- - - - 
+
+### Crisp-DM :arrows_counterclockwise:
+
+We chose the Crips-DM methology (Cross-Industry-Process for Data Mining) as an approach for our project. CrispDM ensures a structured approach and can be used for any projects related to Data Science.
+
+On the following illustration the typical phases of the model are shown. It is not a linear process and moving back and forth between different phases as it is always required. The arrows in the following illustration show the most important and frequent dependencies between phases and the outer circle sympolizes the cyclic nature of data mining itself. 
+
+![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
+
+- - - -
+
+### Specify Business Understanding (CRISP DM) 
+
+**1.1 Determine Business Objectives** <a name="determine_business_objectives"></a>
 
 **Background**
 
@@ -35,7 +101,7 @@
 * The solution should be capable of multi-language support and detect words/phrases with an high accuracy.
 
 
-**1.2 Assess Situation**
+**1.2 Assess Situation** <a name="asses_situation"></a>
 
 **Inventory of Resources, Requirements, Assumptions and Constraint**
 &rightarrow; Here are the different models used to build a speech recognition system:
@@ -56,7 +122,7 @@
 - Context
 
 
-**1.3 Determine Data Miniing Goals**
+**1.3 Determine Data Mining Goals** <a name="determine_data_mining"></a>
 
 **Data Mining Goals**
 * General speech recognition (text to speech & speech to text)
@@ -70,59 +136,23 @@
 -	The more data available, the better the language models work in recognizing patterns and rules.
 
 
-**1.4 Produce Project Plan**
+- - - -
 
-**Project Plan**
-- tbd
+### Projects Organization
 
-**Initial Assessment of Tools and Techniques**
-- tbd
+Since we are a team of three students who work together remotely a strucutred project organization was versy important for us. 
 
+* Backlog: Open issues that are not assigned yet.
+* ToDo: Open issues that have not yet been processed.
+* In progress: Issues that are assigned to a team member and are currently being worked on.
+* Done: Completed issues.
 
-### Use Case 
+* All these issues are labeled according to their topic, e.g. as "documentation", "coding", "bug", "discussion", etc.
 
-**Example: program a Speech Regognition**
-To start very easy we wrote down the following short use case:
-
-  * Me: HAL, please... Can someone else help me?
-
-  * You: No problem, I'm a Python hero!
-
-**Target** :memo:
-
-Out goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
-It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
-The project started April 2021 und will be finised in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
-
-**Features**
-
-We want to implement the features listed below:
-
-   * Recognize simple question e. g. "How are you", "What is your name?" or „Hello Hal, tell me a joke“
-   * Give information about the weather „Hello Hal, hows the weather today?“  
-   * Give information about the time
-   * Open a browser (google.com)  
-   * Set an alarm     
-   * Implement google standard answers  
-   * Save document (e. g. speech to text)  
-   * Compute two numbers 
-   * Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
+![Bildschirmfoto 2021-08-11 um 11 55 47](https://user-images.githubusercontent.com/83067079/129011259-44cf4a4a-fb29-4afb-8930-05c4c712f60e.png)
 
 
-### Process Flow Chart 
-
-Below we designed a flow chart how our speech recognition works in three steps:
-<img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
-
-
-
-### Crisp-DM :arrows_counterclockwise:
-
-![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
-
-
-
-
+- - - -
 
 ### How Speech Recognition Works – An Overview
 
@@ -163,9 +193,10 @@ While programming, we don't have to worry about about that speech recognition pr
 
 
 - - - -
+- - - -
 
 
-## 2) Methological approach
+## 2) Methological approach <a name="methological_approach"></a>
 
 The first step is to install all necessary libraries. 
 
@@ -242,45 +273,55 @@ In the following, we wrote a description of which classes are implemented and wh
 - The Recorder class imports "speech recognition" as a library. 
 - We defined a microphone and that the recording will stopp after three seconds of break. 
 
- **Class: Listener** :ear:
+ **Class: Listener** (file listener.py) :ear:
  - The Listener class returns the spoken words as a text. 
  
  **Class: Speaker** (file speaker.py) 🔈
 - Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
 
- **Class: Interpreter** ⏳
+ **Class: Interpreter** (file interpreter.py) ⏳
 - The interpreter recognises an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
  
  **Class: Utilities** (file utilities.py) 📂
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
 - Furthermore we defined Hals standard answer "Sorry Dave, I'm afraid I can't do this"
 
- **Class: Recognizer**
+ **Class: Recognizer** (file recognizer.py)
  - The recognizer is our main class for natural language processing. It works with inheritance for all the classes listed below and also named "Recognizer..." 
  
- **Class: Recognizertime**
+ **Class: Recognizertime** (file recognizertime.py)
 -  This class returns the current time of the following questions. And returns a standard answer if it's not one of the defined questions.
 
- **Class: Recognizersimple**
+ **Class: Recognizersimple** (file recognizersimple.py)
  - This class returns in comparison to a default text the correct answer to an input question.
 
- **Class: Recognizersimplemath**
+ **Class: Recognizersimplemath** (file recognizersimplemath.py)
  - With an input of numbers, Hal is able to return the correct answer due to the mathematical implementation of the given operators. Which are defined in this 
    class. Also the statistical methods like the interpreter function is able to analyze the syntax for nouns and verbs and finds named entities, phrases and  concepts. The dump function returns for the tokens which are contained in the document which returns token attributes like readable string representations of an attribute. And the isfloat function returns a true for a numeric float or false if it's not the case.
 
- **Class: Recognizernamedentities**
+ **Class: Recognizernamedentities** (recognizernamedentities.py)
  - Recognizes named entities like people names, city names etc.
 
+
+**Process of the classes**
+
+<img width="579" alt="image" src="https://user-images.githubusercontent.com/83068247/126769739-0260daea-d009-4236-b585-61c11eb690f9.png">
+
+[Process of the classes.pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868104/Process.of.the.classes.pdf)
+
+
+
+- - - -
 - - - -
 
 
 
-## 3) Findings and achievements :construction:
+## 3) Findings and achievements :construction: <a name="findings_and_achievements"></a>
 - Detailed description of approach, work, findings, concrete achievements 
 
 :warning: First we will start with problems we had during our project and how we solved these problems :warning:
 
-#### 1. Problems 
+#### 1. Problems <a name="problems"></a> 
 ##### 1.1 Installation 
 
 There was a problem to install the package "PyAudio". We found two different solutions for Mac and Windows to solve the shown error. 
@@ -316,6 +357,8 @@ or
 
 ##### 1.2 Manual push request
 
+Sometimes we had troubles with pushing our code into Github. This is how we solved the problem: 
+
 1.) Type in your terminal:
 
 * cd desktop
@@ -325,7 +368,12 @@ or
 ![image](https://user-images.githubusercontent.com/83068247/122056101-91ac6300-cde9-11eb-9ed2-5768d8b7567e.png)
 
 
-#### 2. Achievements  
+
+##### 1.3 Common errors
+- A common error which occur during our speech recognition process is related to the **microphone**. If the microphone is used (e. g. during a video call) the speech recognition process is not able to start. So make sure that the microphone is not used at the same time. 
+
+
+#### 2. Achievements <a name="achievements"></a>  
 
 In this part we want to give a detailed description how the speech recogntion is used and what features we implemented. 
 * To start our speech recognition the "main"-class should be run. You will be asked if the speech assistant Hal should start listening (press button 1) or if Hal should turn off (press button 2). If another input than 1 or 2 is given Hal will tell you it was a "wrong command"
@@ -338,22 +386,46 @@ In this part we want to give a detailed description how the speech recogntion is
 * 5. Ask for a simple math taks (e. g. "5 * 5")
 * In the next step Hal will give you an answer. If he did not undestand what you said, he will ask to repeat. 
 
+- **Recording sounds**: We had some troubles while downloading PyAudio, so when we first recorded sounds it was a big success for us. 
+- **Hal speaks**: The biggest success during our project was when our Speech Assistant Hal started speaking to us. 
+- **Hal recognizes words and sentences and give answers to that**
+
+- - - -
 - - - -
 
 
 
-## 4) Summary :construction:
-- summary if the targets have been archieved and if not describe reasons 
+## 4) Summary :construction: <a name="summary"></a>
 
-All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "Potential future development". 
+All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "potential future developments". 
 Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. 
 So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
 
-## 5) Potential future developments:
+## 5) Potential future developments: <a name="potential_future_developments"></a>
 
-**Spacy** &rightarrow;
+We started to interpret easy commands like simple questions (e.g. "How are you Hal?"). Now we can implement further functions like a command to open a browser if the user uses the words "open browser". Also it's possible and necessary to filter out background noises or maybe to just take the loudest voice, when it comes to crosstalk. Also keywords can be selected to helb the NLP to process the language understanding when differnet accents are uswed in different languages.
+
+**Voice-Tech (Healthcare):**
+AI-powered chatbots and virtual assistants played a vital role in the fight against COVID-19. So chatbots can help screen and triage patients. Voice and conversational AI have made health services more accessible to everyone who was unable to leave their home during COVID-19 restrictions. Now that patients have a taste for what is possible with voice and healthcare, behaviors are not likely to go back to re-pandemic norms. 
+
+**Voice Cloning:**
+Machine learning tech and GPU power development help to create a custom voice  and make the speech more emotional, which makes this computer-generated voice indistinguishable from the real one. You just use a recorded speech and then a voice conversion technology transforms your voice into another. 
+
+
+
+**Spacy** 
 
 * If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
-* Furthermore it would be possible to understand a wide range of languages. E. g. Spanish, German and Chinese is implemented in Spacy. 
+* Furthermore it would be possible to understand a wide range of languages. For example Spanish, German, Chinese and 60 more languages are implemented in Spacy. 
 * Test-driven-development
-* Implement furhter libraries e. g. &rightarrow; https://towardsdatascience.com/named-entity-recognition-ner-with-bert-in-spark-nlp-874df20d1d77
+
+**Implement further libraries** 
+
+* The **PySpark** library is used for machine learning. With the named entity recgnition and the **BERT** language model, which has already been trained with wikipedia articles, you can analyse texts according to structure and content.
+
+* With the **geturl** library you can open urls in python. 
+
+* With **pyowm** (PythonOpenWeatherMap) it is possible to query the weather by location.
+
+* You can also add a wake-up phrase like "hello hal", similar to Siri or Amazon Echo, instead of activating the voice recognition by pressing a button.
+

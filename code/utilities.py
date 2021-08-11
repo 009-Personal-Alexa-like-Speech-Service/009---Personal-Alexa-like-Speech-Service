@@ -21,11 +21,11 @@ def compare(text: str, phrases: List[str]):
             final_text += character
     for phrase in phrases:
         phrase = phrase.lower().strip()
-        finalphrase = ""
+        final_phrase = ""
         for character in phrase:
             if character.isalnum() or character.isspace():
-                finalphrase += character
-        if final_text == finalphrase:
+                final_phrase += character
+        if final_text == final_phrase:
             return True
 
     return False
