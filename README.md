@@ -67,7 +67,7 @@ Now we designed a detailled process:
 Below we designed a flow chart how our speech recognition works in three steps:
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
 
-- - - - - - - -
+- - - - 
 
 ### Crisp-DM :arrows_counterclockwise:
 
@@ -77,7 +77,9 @@ On the following illustration the typical phases of the model are shown. It is n
 
 ![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
 
-## Read me specify Business Understanding (CRISP DM) 
+- - - -
+
+### Specify Business Understanding (CRISP DM) 
 
 **1.1 Determine Business Objectives** <a name="determine_business_objectives"></a>
 
@@ -134,7 +136,7 @@ On the following illustration the typical phases of the model are shown. It is n
 -	The more data available, the better the language models work in recognizing patterns and rules.
 
 
-
+- - - -
 
 ### How Speech Recognition Works – An Overview
 
@@ -174,6 +176,7 @@ While programming, we don't have to worry about about that speech recognition pr
 
 
 
+- - - -
 - - - -
 
 
@@ -293,6 +296,7 @@ In the following, we wrote a description of which classes are implemented and wh
 
 
 - - - -
+- - - -
 
 
 
@@ -337,6 +341,8 @@ or
 
 ##### 1.2 Manual push request
 
+Sometimes we had troubles with pushing our code into Github. This is how we solved the problem: 
+
 1.) Type in your terminal:
 
 * cd desktop
@@ -344,6 +350,11 @@ or
 * Before pushing you need to fetch and merge :heavy_check_mark:
 
 ![image](https://user-images.githubusercontent.com/83068247/122056101-91ac6300-cde9-11eb-9ed2-5768d8b7567e.png)
+
+
+
+##### 1.3 Common errors
+- A common error which occur during our speech recognition process is related to the **microphone**. If the microphone is used (e. g. during a video call) the speech recognition process is not able to start. So make sure that the microphone is not used at the same time. 
 
 
 #### 2. Achievements <a name="achievements"></a>  
@@ -359,6 +370,11 @@ In this part we want to give a detailed description how the speech recogntion is
 * 5. Ask for a simple math taks (e. g. "5 * 5")
 * In the next step Hal will give you an answer. If he did not undestand what you said, he will ask to repeat. 
 
+- **Recording sounds**: We had some troubles while downloading PyAudio, so when we first recorded sounds it was a big success for us. 
+- **Hal speaks**: The biggest success during our project was when our Speech Assistant Hal started speaking to us. 
+- **Hal recognizes words and sentences and give answers to that**
+
+- - - -
 - - - -
 
 
