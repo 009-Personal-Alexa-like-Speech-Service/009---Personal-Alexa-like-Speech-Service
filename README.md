@@ -145,16 +145,21 @@ On the following illustration the typical phases of the model are shown. It is n
 
 ### Projects Organization
 
-Since we are a team of three students who work together remotely a strucutred project organization was versy important for us. 
+Since we are a team of three students who work together remotely a strucutred project organization was very important for us. We worked with a Kanban Board which is shown in the illustration below. This simplified our communication a lot. 
 
-* Backlog: Open issues that are not assigned yet.
-* ToDo: Open issues that have not yet been processed.
-* In progress: Issues that are assigned to a team member and are currently being worked on.
-* Done: Completed issues.
-
-* All these issues are labeled according to their topic, e.g. as "documentation", "coding", "bug", "discussion", etc.
 
 ![Bildschirmfoto 2021-08-11 um 11 55 47](https://user-images.githubusercontent.com/83067079/129011259-44cf4a4a-fb29-4afb-8930-05c4c712f60e.png)
+
+
+We structured the Kanban Board in four phases:
+
+* **Backlog:** Open issues that are not assigned yet.
+* **ToDo:** Open issues that have not yet been processed but assigned.
+* **In progress:** Issues that are assigned to a team member and we were currently working on.
+* **Done:** Completed issues.
+
+* All these issues are labeled according to their topic, e.g. "documentation" or "coding"
+
 
 
 - - - -
@@ -192,7 +197,7 @@ While programming, we don't have to worry about about that speech recognition pr
 
 * **The complexity of spoken language.** In English, many words have multiple meanings depending on the context – for example “red” and “read” sound exactly the same but have completely different meanings.
 * **People talk fast** – When we speak, we don’t break our sentences up into individual words – we kind of just blurt it all out in one long string of sounds with few breaks. This makes it difficult to determine where a word ends and the next one begins.
-* **Nobody speak in the same way** – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice and understand it immediately.
+* **Nobody speak in the same way** – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice or different accents and understand it immediately.
 * **Background noise** – Differentiating the speech from the background noise is very difficult. This is especially true if the background noise is also speech (say in a class).
 
 
@@ -322,7 +327,8 @@ In the following, we wrote a description of which classes are implemented and wh
 
 
 ## 3) Findings and achievements :construction: <a name="findings_and_achievements"></a>
-- Detailed description of approach, work, findings, concrete achievements 
+
+In this chapter we want to give a detailed description of our  approach, work, findings, concrete achievements.
 
 :warning: First we will start with problems we had during our project and how we solved these problems :warning:
 
@@ -352,7 +358,6 @@ or
 
 
 3.) There was a problem to install the package "Spacy". We found a solution for Mac and Windows. Type the following code in your terminal:
-
 
 * As a first command: *pip install -U spacy*
 
@@ -391,9 +396,12 @@ In this part we want to give a detailed description how the speech recogntion is
 * 5. Ask for a simple math taks (e. g. "5 * 5")
 * In the next step Hal will give you an answer. If he did not undestand what you said, he will ask to repeat. 
 
-- **Recording sounds**: We had some troubles while downloading PyAudio, so when we first recorded sounds it was a big success for us. 
-- **Hal speaks**: The biggest success during our project was when our Speech Assistant Hal started speaking to us. 
-- **Hal recognizes words and sentences and give answers to that**
+This was the speech recognition process itself. Now we want to point out our biggest successes a bit more. 
+
+- **Recording  voices**: We had some troubles while downloading PyAudio, so when Hal first started to record our spoken voice it was a big success. 
+- **Hal speaks**: But actually the biggest success we had was when Hal started speakig. 
+- The biggest success during our project was when our Speech Assistant Hal started speaking to us. 
+- **Hal recognizes words and sentences and give answers to that**: At some point Hal finally "understood" the sentences we said. This was such a big thing for us and we had lots of fun to think about new features and libraries we can add to our code. 
 
 - - - -
 - - - -
