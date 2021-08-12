@@ -43,7 +43,7 @@ To start very easy we wrote down the following short use case:
 
 **Target** :memo:
 
-Out goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
+Our goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
 It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
 The project started April 2021 und will be finished in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
 
