@@ -19,7 +19,9 @@
     1.3 [Determine Data Mining Goals](#determine_data_mining)
 2. [Methological Approach](#methological_approach)
 3. [Findings and Achievements](#findings_and_achievements)
+
     3.1 [Problems](#problems)
+    
     3.2 [Achievements](#achievements)
 4. [Summary](#summary)
 5. [Potential Future Developments](#potential_future_developments)
