@@ -109,13 +109,13 @@ In this step we made sure that the input data is usable for our tool. A speech i
 **4. Modelling**
 
 
-Different recognisers can be used to process the input data, divided into different tasks. For this we used object-oriented programming. 
+Different recognizers can be used to process the input data, divided into different tasks. For this we used object-oriented programming. 
 
 
 **5. Evaluation**
 
 
-In this phase we compared the current state of our work with the initially defined demands and goals. We evaluated how successful the project was, what was achieved and what was not.
+In this phase we compared the current state of our work with the initially defined demands and goals. We evaluated how successful the project was, what was achieved and what was not and figured out future developments (chapter 5). 
 
 
 **6. Deployment**
