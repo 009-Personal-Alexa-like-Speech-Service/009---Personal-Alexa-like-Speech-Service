@@ -450,7 +450,7 @@ Furthermore we had a few challenges to face. The hardest ones for us were to rec
 Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. When we first started the project none of us had any knowledge about object-oriented programming or Git.
 So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
 
-## 5) Potential future developments: <a name="potential_future_developments"></a> :rocket:
+## 5) Potential future developments <a name="potential_future_developments"></a> :rocket:
 
 We started to interpret easy commands like simple questions (e. g. "How are you Hal?"). But as already said before we could not implement all the features we set as a target in chapter 1. Now we will summarize shorty the missing features:
 * The command to open a browser if the user says "Open browser"
