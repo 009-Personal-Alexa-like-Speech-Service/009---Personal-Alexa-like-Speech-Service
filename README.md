@@ -187,7 +187,7 @@ After we shortly explained the CRISP-DM model in general, we want to go more int
 
 - - - -
 
-### Projects Organization
+### Project Organization
 
 Since we are a team of three students who work together remotely a strucutred project organization was very important for us. We worked with a Kanban Board which is shown in the illustration below. This simplified our communication a lot. 
 
