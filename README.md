@@ -7,6 +7,8 @@
 - Maximilian Schmitt [872765]
 - Thomas Zeutschler
 
+The project is related to Business Analytics A class with the M.Sc. Business Analytics studies at HSD University of Applied Science, Düsseldorf supported by Mr. Zeutschler. 
+
 - - - -
 
 ## Table of contents
