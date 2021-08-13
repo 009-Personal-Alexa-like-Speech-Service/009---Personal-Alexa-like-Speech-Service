@@ -100,7 +100,7 @@ In the first step, we defined our goals, requirements and potential success fact
 We thought about the data we will use and realised that the core of speech recognition is the audio files that are created during the input. We also looked at how audio files work technically and what additional libraries are needed to work with them.
 
 
-3 Data Preparation
+3. Data Preparation
 
 
 In this step we made sure that the input data is usable for our tool. A speech input is converted into a text which can then be processed. Again, it was necessary to find out which libraries are needed for this.
