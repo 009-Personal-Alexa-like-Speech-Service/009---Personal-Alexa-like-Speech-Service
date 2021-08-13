@@ -436,7 +436,7 @@ This was the speech recognition process itself. Now we want to point out our big
 
 - **Recording  voices**: We had some troubles while downloading PyAudio, so when Hal first started to record our spoken voice it was a big success.
 - **Hal speaks**: But actually the biggest success we had was when Hal started speaking. At this point Hal still had the voice of a woman but nevertheless we were really proud that we made it that far!
-- **Hal recognizes words and sentences and give answers to that**: At some point Hal finally "understood" the sentences we said. This was such a big thing for us and we had lots of fun to think about new features and libraries we can add to our code. 
+- **Hal recognizes words and sentences and gives answers to that**: At some point Hal finally "understood" the sentences we said. This was such a big thing for us and we had lots of fun to think about new features and libraries we can add to our code. 
 
 - - - -
 - - - -
@@ -446,7 +446,7 @@ This was the speech recognition process itself. Now we want to point out our big
 ## 4) Summary :construction: <a name="summary"></a>
 
 All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "potential future developments". 
-Furthermore we had a few challenges to face. The hardest ones for us were to record voices and to make our speech assistant to speech. 
+Furthermore we had a few challenges to face. The hardest ones for us were to record voices and to make our speech assistant to speaking. 
 Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. When we first started the project none of us had any knowledge about object-oriented programming or Git.
 So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
 
@@ -463,6 +463,7 @@ We started to interpret easy commands like simple questions (e. g. "How are you 
 
 
 **spaCy** 
+
 As we already explained before spaCy has a wide range of possiilities for NLP and we just used a few of the in our project:
 * If you use all the functions of spaCy, it would be possible for the computer to automatically recognize what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
 * Furthermore, it would be possible to understand a wide range of languages. For example Spanish, German, Chinese and 60 more languages are implemented in spaCy. 
