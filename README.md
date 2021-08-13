@@ -408,27 +408,27 @@ This was the speech recognition process itself. Now we want to point out our big
 ## 4) Summary :construction: <a name="summary"></a>
 
 All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "potential future developments". 
-Furthermore we had a few challenges to face: 
+Furthermore we had a few challenges to face. The hardest ones for us were to record voices and to make our speech assistant to speech. 
 Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. When we first started the project none of us had any knowledge about object-oriented programming or Git.
 So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
 
 ## 5) Potential future developments: <a name="potential_future_developments"></a>
 
-We started to interpret easy commands like simple questions (e.g. "How are you Hal?"). Now we can implement further functions like a command to open a browser if the user uses the words "open browser". Also it's possible and necessary to filter out background noises or maybe to just take the loudest voice, when it comes to crosstalk. Also keywords can be selected to helb the NLP to process the language understanding when differnet accents are uswed in different languages.
+We started to interpret easy commands like simple questions (e.g. "How are you Hal?"). But as already said before we could not implement all the features we set as a target in chapter 1. Now we will summarize shorty the missing features:
+* The command to open a browser if the user says "Open browser"
+* We wanted to implement a weather library so Hal can give us information about the current weather in different cities 
+* Another feature is to set an alarm 
+* Furthermore we wanted to implement standard Google answers and give Hal the possibility to save spoken words as a document  
+* Also it's possible and necessary to filter out background noises or maybe to just take the loudest voice, when it comes to crosstalk. 
+* Keywords can be selected to helb the NLP to process the language understanding when differnet accents are uswed in different languages.
+* Another goal we did not achieve which would be part of future development is that Hal starts listening with the vocal trigger "Hello Hal"
 
-**Voice-Tech (Healthcare):**
-AI-powered chatbots and virtual assistants played a vital role in the fight against COVID-19. So chatbots can help screen and triage patients. Voice and conversational AI have made health services more accessible to everyone who was unable to leave their home during COVID-19 restrictions. Now that patients have a taste for what is possible with voice and healthcare, behaviors are not likely to go back to re-pandemic norms. 
 
-**Voice Cloning:**
-Machine learning tech and GPU power development help to create a custom voice  and make the speech more emotional, which makes this computer-generated voice indistinguishable from the real one. You just use a recorded speech and then a voice conversion technology transforms your voice into another. 
+**spaCy** 
+As we already explained before spaCy has a wide range of possiilities for NLP and we just used a few of the in our project:
+* If you use all the functions of spaCy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
+* Furthermore it would be possible to understand a wide range of languages. For example Spanish, German, Chinese and 60 more languages are implemented in spaCy. 
 
-
-
-**Spacy** 
-
-* If you use all the functions of Spacy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
-* Furthermore it would be possible to understand a wide range of languages. For example Spanish, German, Chinese and 60 more languages are implemented in Spacy. 
-* Test-driven-development
 
 **Implement further libraries** 
 
@@ -438,5 +438,14 @@ Machine learning tech and GPU power development help to create a custom voice  a
 
 * With **pyowm** (PythonOpenWeatherMap) it is possible to query the weather by location.
 
-* You can also add a wake-up phrase like "hello hal", similar to Siri or Amazon Echo, instead of activating the voice recognition by pressing a button.
+* You can also add a wake-up phrase like "Hello Hal", similar to Siri or Amazon Echo, instead of activating the voice recognition by pressing a button.
+
+
+- - - -
+
+**Voice-Tech (Healthcare):**
+AI-powered chatbots and virtual assistants played a vital role in the fight against COVID-19. So chatbots can help screen and triage patients. Voice and conversational AI have made health services more accessible to everyone who was unable to leave their home during COVID-19 restrictions. Now that patients have a taste for what is possible with voice and healthcare, behaviors are not likely to go back to re-pandemic norms. 
+
+**Voice Cloning:**
+Machine learning tech and GPU power development help to create a custom voice  and make the speech more emotional, which makes this computer-generated voice indistinguishable from the real one. You just use a recorded speech and then a voice conversion technology transforms your voice into another. 
 
