@@ -27,14 +27,12 @@
 5. [Potential Future Developments](#potential_future_developments)
 
 
-## 1) Business Understanding 🧠 <a name="business_understanding"></a>
-
-*In our Business Understanding the Business Question and problem is described. The goal and what we intended to archieved is written down in detail.* 
-
+## 1) Business Understanding 🧠 <a name="business_understanding"></a> 
 
 ### Use Case 
 
 **Example: program a Speech Regognition**
+
 To start very easy we wrote down the following short use case:
 
   * Me: HAL, please... Can someone else help me?
@@ -43,13 +41,13 @@ To start very easy we wrote down the following short use case:
 
 **Target** :memo:
 
-Our goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore Hal should be able to give a spoken answer. 
+Our goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore our speech assistant Hal should be able to give a spoken answer. 
 It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
 The project started April 2021 und will be finished in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
 
 **Features**
 
-We want to implement the features listed below:
+We want to implement the features in our speech assistant listed below:
 
    * Recognize simple question e. g. "How are you", "What is your name?" or „Hello Hal, tell me a joke“
    * Give information about the weather „Hello Hal, hows the weather today?“  
@@ -62,7 +60,7 @@ We want to implement the features listed below:
    * Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
 
 
-Now we designed a detailled process: 
+Now we designed a detailled process which shows how we imagines the process to work: 
 <img width="802" alt="image" src="https://user-images.githubusercontent.com/83068247/126769181-02856317-7fe9-441d-88bc-3736bfaf9fa2.png">
 
 [Flowchart.pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868056/Flowchart.pdf)
@@ -71,6 +69,11 @@ Now we designed a detailled process:
 
 Below we designed a flow chart how our speech recognition works in three steps:
 <img width="1044" alt="Bildschirmfoto 2021-06-03 um 18 31 40" src="https://user-images.githubusercontent.com/83067079/120679900-fb4b7980-c499-11eb-87d2-a69cd24ddc16.png">
+
+The flow chart already shows the three challenges we had: 
+* The first big deal is to transform speech to text. For that we need a few libraries and Hal needs to "record" spoken words. 
+* The next big step for us is the Natural Language Processing (NLP) itself. The spoken words should be interpreted and for that we need spaCy as a library. 
+* The last step in our process is the text to speech transformation. After our speech assistant Hal "understood" the spoken words, he should be able to give a spoken answer. 
 
 - - - - 
 
@@ -85,7 +88,9 @@ On the following illustration the typical phases of the model are shown. It is n
 
 - - - -
 
-### Specify Business Understanding (CRISP DM) 
+### Specify Business Understanding (CRISP-DM) 
+
+After we shortly explained the CRISP-DM modell in general, we want to go more into detail regarding our project: 
 
 **1.1 Determine Business Objectives** <a name="determine_business_objectives"></a>
 
@@ -134,7 +139,7 @@ On the following illustration the typical phases of the model are shown. It is n
 * General speech recognition (text to speech & speech to text)
 * Segmentation of captured speech into words, phrases and sentences
 * Function recognition of individual words within a sentence (i.e. subject, verb, object, etc.)
-* analysis of sentence context, sentence relationships and entities
+* Analysis of sentence context, sentence relationships and entities
 
 **Data Mining Success Criteria**
 * Human language is complex and does not always follow logical rules. Words have many variants and meanings, some of which can only be grasped through the context of the content. Thus, it is extremely difficult for programs to recognize subliminal meanings in texts. 
@@ -175,23 +180,14 @@ To show the speech recognition process in an easy way we added the figure below.
 (Source:https://towardsdatascience.com/speech-recognition-in-python-the-complete-beginners-guide-de1dd7f00726)
 
 
-**Now we want to give a detailed description of the process:*
+*Now we want to give a detailed description of the process:*
 
 The first component of speech recognition is speech. Speech must be **converted from physical sound to an electrical signal** with a microphone, and then to **digital data with an analog-to-digital converter**. Once the speech is digitized, several models can be used to transcribe the audio to text. Most modern speech recognition systems rely on **Hidden Markov Model (HMM).** This approach works on the assumption that a speech signal, when viewed on a short enough timescale, can be reasonably approximated as a stationary process—that is, a process in which statistical properties do not change over time.
 
-One can imagine that this whole process may be computationally expensive. In many modern speech recognition systems, neural networks are used to simplify the speech signal using techniques for feature transformation and dimensionality reduction before HMM recognition. Voice activity detectors (VADs) are also used to reduce an audio signal to only the portions that are likely to contain speech. This prevents the recognizer from wasting time analyzing unnecessary parts of the signal.
+One can imagine that this whole process may be computationally expensive. In many modern speech recognition systems, **neural networks** are used to simplify the speech signal using techniques for feature transformation and dimensionality reduction before HMM recognition. Voice activity detectors (VADs) are also used to reduce an audio signal to only the portions that are likely to contain speech. This prevents the recognizer from wasting time analyzing unnecessary parts of the signal.
 
 While programming, we don't have to worry about about that speech recognition process. There are several speech services/ packages available to help us with that. But we will explained the used packages later on. 
 *(Source: https://realpython.com/python-speech-recognition/)*
-
-1. **Configure Microphone**: It is advisable to specify the microphone during the program to avoid any glitches (use laptop microphone or headphones)
-2. **Set Chunk Size:** This basically involved specifying how many bytes of data we want to read at once. Typically, this value is specified in powers of 2 such as 1024 or 2048
-3. **Set Sampling Rate:** Sampling rate defines how often values are recorded for processing
-4. **Set Device ID to the selected microphone:** In this step, we specify the device ID of the microphone that we wish to use in order to avoid ambiguity in case there are multiple microphones. This also helps debug, in the sense that, while running the program, we will know whether the specified microphone is being recognized. During the program, we specify a parameter device_id. The program will say that device_id could not be found if the microphone is not recognized.
-5. **Allow Adjusting for Ambient Noise:** Since the surrounding noise varies, we must allow the program a second or too to adjust the energy threshold of recording so it is adjusted according to the external noise level.
-6. **Speech to text translation:** This is done with the help of Google Speech Recognition. This requires an active internet connection to work. However, there are certain offline Recognition systems such as PocketSphinx, but have a very rigorous installation process that requires several dependencies. Google Speech Recognition is one of the easiest to use.
-
-
 
 
 ### Some of the factors that make programming a speech recognition more difficult are 
@@ -208,10 +204,9 @@ While programming, we don't have to worry about about that speech recognition pr
 
 
 ## 2) Methological approach <a name="methological_approach"></a>
+In this chapter we want to give an overview about our methological approach. The first step is to install all necessary libraries. 
 
-The first step is to install all necessary libraries. 
-
-* **numpy**
+* **NumPy**
  &rightarrow; for working with numerical data 
 
 NumPy (Numerical Python) is an open source Python library used in most scientific and technical fields. It is the standard for working with numerical data in Python. It is used to perform mathematical operations on arrays, such as trigonometric, algebraic and statistical routines. The library contains a lot of mathematical, algebraic and transformation functions.
@@ -227,20 +222,20 @@ The audio is recorded using a speech recognition module, which is included in th
 * **PyAudio**
  &rightarrow;  for usage of audio input and output
 
-Pyaudio is a Python link for PortAudio, a cross-platform audio input and output library. This basically means that we can use Pyaudio to record and play audio across all platforms and operating systems, such as Windows, Mac and Linux.
+Pyaudio is a Python link for PortAudio, a cross-platform audio input and output library. This basically means that we can use Pyaudio to record and play audio across all platforms and operating systems, such as Windows, Mac and Linux. We added the illustration below to make the process clearer. 
 
 ![grafik](https://user-images.githubusercontent.com/83067202/124469715-fe889c80-dd9a-11eb-84d3-fbd0e0d544b0.png)
 
 
-* **spacy**
-  &rightarrow; natural language processing 
+* **spaCy**
+  &rightarrow; Natural Language Processing (NLP)
 
-spaCy is a huge library with many functions. Below we list a few of these function as an overview. It is a open source library for Natural Language Processing (NLP) in Python. Natural Language Processing captures natural language and texts and processes them with the help of algorithms and other rules. 
+spaCy is a huge library with many functions and it very important for our speech assistant to "understand" our spoken words. Below we list a few of the functions as an overview. It is a open source library for Natural Language Processing (NLP) in Python. Natural Language Processing captures natural language and texts and processes them with the help of algorithms and other rules. 
 
 <img width="515" alt="image" src="https://user-images.githubusercontent.com/83068247/123808167-cb549200-d8f0-11eb-9878-4093c406b6f1.png">
 
 
-The goal of natural language processing is to make language and texts understandable for computers in order to operate or control them by speech. To extract meaning from speech or texts, it is necessary to understand not only individual words, but also entire sentences, contexts or topics. 
+The goal of Natural Language Processing is to make language and texts understandable for computers in order to operate or control them by speech. To extract meaning from speech or texts, it is necessary to understand not only individual words, but also entire sentences, contexts or topics. 
 
 Natural Language Processing starts with tokenisation. In this step, the text is divided into tokens. Tokens are words, spaces or punctuation marks. There are models with their own tokenisation rules for each language. 
 
@@ -267,41 +262,42 @@ In our case it is used to make the computer talk to us.
 ### Defined classes 
 
 
-In the following, we wrote a description of which classes are implemented and what functions they contain. We would like to create an appropriate GitHub repository with our code and a detailled description. 
+In the following, we wrote a description of which classes are implemented and what functions they contain. We wanted to create an appropriate GitHub repository with our code and a detailled description. 
 
 
  **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
  - The main file actives our Hal class. 
  
 **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
+- We created a simple "dashboard" where Hal asks you to press 1 or 2.  
 - He starts  to record audio when option 1 in the main menu is chosen
 - After three seconds of break he stopps recording 
 - If he does not understand the spoken words he gives an error
 - If option 2 is chosen he turns off
-- And if another input is give, Hal says that he did not understand and asks to repeat the input 
+- And if another input is given, Hal says that he did not understand and asks to repeat the input 
 
  **Class: Recorder** (file recorder.py) :video_camera:
 - The Recorder class imports "speech recognition" as a library. 
-- We defined a microphone and that the recording will stopp after three seconds of break. 
+- We defined a microphone and that the recording will stopp after three seconds of break (pause treshold is a parameter which can be set with the speech recognition library)
 
  **Class: Listener** (file listener.py) :ear:
  - The Listener class returns the spoken words as a text. 
  
  **Class: Speaker** (file speaker.py) 🔈
-- Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained in 2.0. 
+- Our speaker class gives Hal the opportunity to speak. For that we initialized a library "pyttsx3" which is explained more detailed in 2.0. 
 
  **Class: Interpreter** (file interpreter.py) ⏳
-- The interpreter recognises an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
+- The interpreter recognizes an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
  
  **Class: Utilities** (file utilities.py) 📂
 - We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
 - Furthermore we defined Hals standard answer "Sorry Dave, I'm afraid I can't do this"
 
  **Class: Recognizer** (file recognizer.py)
- - The recognizer is our main class for natural language processing. It works with inheritance for all the classes listed below and also named "Recognizer..." 
+ - The recognizer is our main class for Natural Language Processing. It works with inheritance for all the classes listed below and also named "Recognizer..." 
  
  **Class: Recognizertime** (file recognizertime.py)
--  This class returns the current time of the following questions. And returns a standard answer if it's not one of the defined questions.
+-  This class returns the current time of the following questions. And returns a standard answer if it is not one of the defined questions.
 
  **Class: Recognizersimple** (file recognizersimple.py)
  - This class returns in comparison to a default text the correct answer to an input question.
@@ -314,7 +310,8 @@ In the following, we wrote a description of which classes are implemented and wh
  - Recognizes named entities like people names, city names etc.
 
 
-**Process of the classes**
+**Process of classes**
+On the illustration below the process of how the classes are connected with each other is shown: 
 
 <img width="579" alt="image" src="https://user-images.githubusercontent.com/83068247/126769739-0260daea-d009-4236-b585-61c11eb690f9.png">
 
@@ -329,7 +326,7 @@ In the following, we wrote a description of which classes are implemented and wh
 
 ## 3) Findings and achievements :construction: <a name="findings_and_achievements"></a>
 
-In this chapter we want to give a detailed description of our  approach, work, findings, concrete achievements.
+In this chapter we want to give a detailed description of our approach, work, findings and concrete achievements.
 
 :warning: First we will start with problems we had during our project and how we solved these problems :warning:
 
@@ -397,11 +394,10 @@ In this part we want to give a detailed description how the speech recogntion is
 * 5. Ask for a simple math taks (e. g. "5 * 5")
 * In the next step Hal will give you an answer. If he did not undestand what you said, he will ask to repeat. 
 
-This was the speech recognition process itself. Now we want to point out our biggest successes a bit more. 
+This was the speech recognition process itself. Now we want to point out our biggest successes during the project a bit more. 
 
-- **Recording  voices**: We had some troubles while downloading PyAudio, so when Hal first started to record our spoken voice it was a big success. 
-- **Hal speaks**: But actually the biggest success we had was when Hal started speakig. 
-- The biggest success during our project was when our Speech Assistant Hal started speaking to us. 
+- **Recording  voices**: We had some troubles while downloading PyAudio, so when Hal first started to record our spoken voice it was a big success.
+- **Hal speaks**: But actually the biggest success we had was when Hal started speakig. At this point Hal still had the voice of a woman but nevertheless we were really proud that we made it that far!
 - **Hal recognizes words and sentences and give answers to that**: At some point Hal finally "understood" the sentences we said. This was such a big thing for us and we had lots of fun to think about new features and libraries we can add to our code. 
 
 - - - -
@@ -412,7 +408,8 @@ This was the speech recognition process itself. Now we want to point out our big
 ## 4) Summary :construction: <a name="summary"></a>
 
 All in all it can be said that the task to develop a speech recognition service object oriented was successfully completed. Due to the lack of time we were not able to implement all the features we wanted to add to the speech recognition. We will talk about that in topic 5 "potential future developments". 
-Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. 
+Furthermore we had a few challenges to face: 
+Our personal success of this project was to get a much better understanding of object oriented programing and to collect valuable experience for our jobs. We got more used to developer tools such as "GitHub" and working with a Kanban board. When we first started the project none of us had any knowledge about object-oriented programming or Git.
 So nevertheless we were not able to implement all the features we wanted to, the project was a personal success for us. 
 
 ## 5) Potential future developments: <a name="potential_future_developments"></a>
