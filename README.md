@@ -80,7 +80,8 @@ We chose the Crips-DM methology (Cross-Industry-Process for Data Mining) as an a
 
 On the following illustration the typical phases of the model are shown. It is not a linear process and moving back and forth between different phases as it is always required. The arrows in the following illustration show the most important and frequent dependencies between phases and the outer circle sympolizes the cyclic nature of data mining itself. 
 
-![Bildschirmfoto 2021-07-22 um 14 42 57](https://user-images.githubusercontent.com/83067079/126640843-1aee7caa-a5a0-4de4-b686-fa84477ad5d7.png)
+
+![Bildschirmfoto 2021-08-13 um 09 02 47](https://user-images.githubusercontent.com/83067079/129317858-ebc68bf6-b046-454f-8780-8782f8b3f1b1.png)
 
 - - - -
 
