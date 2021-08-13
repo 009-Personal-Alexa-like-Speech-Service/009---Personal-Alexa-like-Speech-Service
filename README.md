@@ -41,8 +41,8 @@ To start very easy we wrote down the following short use case:
 
 **Target** :memo:
 
-Our goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech asistant he should start listening and process the spoked words. Furthermore our speech assistant Hal should be able to give a spoken answer. 
-It should contain the follwing features which are mentioned below and give action to that. Moreover we want to create a complete Github repository with our code and a detailed description about our project. 
+Our goal is to develop a voice control system that responds to the command "Hello Hal". After a user starts the speech assistant he should start listening and process the spoked words. Furthermore, our speech assistant Hal should be able to give a spoken answer. 
+It should contain the follwing features which are mentioned below and give action to that. Moreover, we want to create a complete Github repository with our code and a detailed description about our project. 
 The project started April 2021 und will be finished in August 2021. It was carried out as a part of our masters degress "Business Analytics".   
 
 **Features**
@@ -50,7 +50,7 @@ The project started April 2021 und will be finished in August 2021. It was carri
 We want to implement the features in our speech assistant listed below:
 
    * Recognize simple question e. g. "How are you", "What is your name?" or „Hello Hal, tell me a joke“
-   * Give information about the weather „Hello Hal, hows the weather today?“  
+   * Give information about the weather „Hello Hal, how's the weather today?“  
    * Give information about the time
    * Open a browser (google.com)  
    * Set an alarm     
@@ -60,7 +60,7 @@ We want to implement the features in our speech assistant listed below:
    * Implement entities like cities, companies etc. (e. g. "Apple" , "New York")
 
 
-Now we designed a detailled process which shows how we imagines the process to work: 
+Now we designed a detailed process which shows how we imagines the process to work: 
 <img width="802" alt="image" src="https://user-images.githubusercontent.com/83068247/126769181-02856317-7fe9-441d-88bc-3736bfaf9fa2.png">
 
 [Flowchart.pdf](https://github.com/009-Personal-Alexa-like-Speech-Service/009---Personal-Alexa-like-Speech-Service/files/6868056/Flowchart.pdf)
@@ -81,7 +81,7 @@ The flow chart already shows the three challenges we had:
 
 We chose the Crips-DM methology (Cross-Industry-Process for Data Mining) as an approach for our project. CrispDM ensures a structured approach and can be used for any projects related to Data Science.
 
-On the following illustration the typical phases of the model are shown. It is not a linear process and moving back and forth between different phases as it is always required. The arrows in the following illustration show the most important and frequent dependencies between phases and the outer circle sympolizes the cyclic nature of data mining itself. 
+On the following illustration the typical phases of the model are shown. It is not a linear process and moving back and forth between different phases as it is always required. The arrows in the following illustration show the most important and frequent dependencies between phases and the outer circle symbolizes the cyclic nature of data mining itself. 
 
 
 ![Bildschirmfoto 2021-08-13 um 09 02 47](https://user-images.githubusercontent.com/83067079/129317858-ebc68bf6-b046-454f-8780-8782f8b3f1b1.png)
@@ -90,7 +90,7 @@ On the following illustration the typical phases of the model are shown. It is n
 
 ### Specify Business Understanding (CRISP-DM) 
 
-After we shortly explained the CRISP-DM modell in general, we want to go more into detail regarding our project: 
+After we shortly explained the CRISP-DM model in general, we want to go more into detail regarding our project: 
 
 **1.1 Determine Business Objectives** <a name="determine_business_objectives"></a>
 
@@ -118,8 +118,8 @@ After we shortly explained the CRISP-DM modell in general, we want to go more in
 &rightarrow; Here are the different models used to build a speech recognition system:
 
 * Acoustic: Take the waveform of speech and break it up into small fragments to predict the most likely phonemes in the speech.
-* Pronunciation: Take the sounds and tie them together to make words, i.e. associate words with their phonetic representations.
-* Language: Take the words and tie them together to make sentences, i.e. predict the most likely sequence of words (or text strings) among several a set of text strings.
+* Pronunciation: Take the sounds and tie them together to make words, i. e. associate words with their phonetic representations.
+* Language: Take the words and tie them together to make sentences, i. e. predict the most likely sequence of words (or text strings) among several a set of text strings.
 
 **Risks and Contingencies Terminology. Costs and Benefits**
 * To further highlight the challenge, speech recognition systems have to be able to distinguish between homophones (words with the same pronunciation but different meanings), to learn the difference between proper names and separate words (“Tim Cook” is a person, not a request for Tim to cook), and more.
@@ -186,7 +186,7 @@ The first component of speech recognition is speech. Speech must be **converted 
 
 One can imagine that this whole process may be computationally expensive. In many modern speech recognition systems, **neural networks** are used to simplify the speech signal using techniques for feature transformation and dimensionality reduction before HMM recognition. Voice activity detectors (VADs) are also used to reduce an audio signal to only the portions that are likely to contain speech. This prevents the recognizer from wasting time analyzing unnecessary parts of the signal.
 
-While programming, we don't have to worry about about that speech recognition process. There are several speech services/ packages available to help us with that. But we will explained the used packages later on. 
+While programming, we don't have to worry about that speech recognition process. There are several speech services/ packages available to help us with that. But we will explained the used packages later on. 
 *(Source: https://realpython.com/python-speech-recognition/)*
 
 
@@ -243,8 +243,8 @@ Part-of-speech (POS) tagging assigns grammatical properties such as verb, adject
 
 Another step is lemmatisation. Here, the individual words are traced back to their basic forms. 
 
-With the help of Named Entity Recognition, it is possible to assign persons, places, times or other objects like company names to the recognised entities. 
-Dependency parsing assigns syntax dependencies to the identified and tagged tokens. Word vectors are used to describe and recognise relationships between words. 
+With the help of Named Entity Recognition, it is possible to assign persons, places, times or other objects like company names to the recognized entities. 
+Dependency parsing assigns syntax dependencies to the identified and tagged tokens. Word vectors are used to describe and recognize relationships between words. 
 
 
 <img width="542" alt="image" src="https://user-images.githubusercontent.com/83068247/123808008-a6601f00-d8f0-11eb-833e-7cd011f4b2f7.png">
@@ -262,7 +262,7 @@ In our case it is used to make the computer talk to us.
 ### Defined classes 
 
 
-In the following, we wrote a description of which classes are implemented and what functions they contain. We wanted to create an appropriate GitHub repository with our code and a detailled description. 
+In the following, we wrote a description of which classes are implemented and what functions they contain. We wanted to create an appropriate GitHub repository with our code and a detailed description. 
 
 
  **Class: Main** (file main.py) We start our speech assistant Hal in our main-file.
@@ -271,14 +271,14 @@ In the following, we wrote a description of which classes are implemented and wh
 **Class: Hal** (file hal.py) Hal is our speech assistant :older_man:
 - We created a simple "dashboard" where Hal asks you to press 1 or 2.  
 - He starts  to record audio when option 1 in the main menu is chosen
-- After three seconds of break he stopps recording 
+- After three seconds of break he stops recording 
 - If he does not understand the spoken words he gives an error
 - If option 2 is chosen he turns off
 - And if another input is given, Hal says that he did not understand and asks to repeat the input 
 
  **Class: Recorder** (file recorder.py) :video_camera:
 - The Recorder class imports "speech recognition" as a library. 
-- We defined a microphone and that the recording will stopp after three seconds of break (pause treshold is a parameter which can be set with the speech recognition library)
+- We defined a microphone and that the recording will stop after three seconds of break (pause threshold is a parameter which can be set with the speech recognition library)
 
  **Class: Listener** (file listener.py) :ear:
  - The Listener class returns the spoken words as a text. 
@@ -290,7 +290,7 @@ In the following, we wrote a description of which classes are implemented and wh
 - The interpreter recognizes an input of spoken words and is able to process the correct answer which is defined in each of our recognizer classes.
  
  **Class: Utilities** (file utilities.py) 📂
-- We defined the clear screen method in our utilities data. So after every speech recognition command the sceen will be cleared. 
+- We defined the clear screen method in our utilities data. So after every speech recognition command the screen will be cleared. 
 - Furthermore we defined Hals standard answer "Sorry Dave, I'm afraid I can't do this"
 
  **Class: Recognizer** (file recognizer.py)
@@ -392,12 +392,12 @@ In this part we want to give a detailed description how the speech recogntion is
 * 3. Or ask him for a joke (e. g. command: "Tell me a joke"
 * 4. Ask about the current time (e. g. command: "What's the time?")
 * 5. Ask for a simple math taks (e. g. "5 * 5")
-* In the next step Hal will give you an answer. If he did not undestand what you said, he will ask to repeat. 
+* In the next step Hal will give you an answer. If he did not understand what you said, he will ask to repeat. 
 
 This was the speech recognition process itself. Now we want to point out our biggest successes during the project a bit more. 
 
 - **Recording  voices**: We had some troubles while downloading PyAudio, so when Hal first started to record our spoken voice it was a big success.
-- **Hal speaks**: But actually the biggest success we had was when Hal started speakig. At this point Hal still had the voice of a woman but nevertheless we were really proud that we made it that far!
+- **Hal speaks**: But actually the biggest success we had was when Hal started speaking. At this point Hal still had the voice of a woman but nevertheless we were really proud that we made it that far!
 - **Hal recognizes words and sentences and give answers to that**: At some point Hal finally "understood" the sentences we said. This was such a big thing for us and we had lots of fun to think about new features and libraries we can add to our code. 
 
 - - - -
@@ -414,25 +414,25 @@ So nevertheless we were not able to implement all the features we wanted to, the
 
 ## 5) Potential future developments: <a name="potential_future_developments"></a>
 
-We started to interpret easy commands like simple questions (e.g. "How are you Hal?"). But as already said before we could not implement all the features we set as a target in chapter 1. Now we will summarize shorty the missing features:
+We started to interpret easy commands like simple questions (e. g. "How are you Hal?"). But as already said before we could not implement all the features we set as a target in chapter 1. Now we will summarize shorty the missing features:
 * The command to open a browser if the user says "Open browser"
 * We wanted to implement a weather library so Hal can give us information about the current weather in different cities 
 * Another feature is to set an alarm 
-* Furthermore we wanted to implement standard Google answers and give Hal the possibility to save spoken words as a document  
-* Also it's possible and necessary to filter out background noises or maybe to just take the loudest voice, when it comes to crosstalk. 
+* Furthermore, we wanted to implement standard Google answers and give Hal the possibility to save spoken words as a document  
+* Also, it's possible and necessary to filter out background noises or maybe to just take the loudest voice, when it comes to crosstalk. 
 * Keywords can be selected to helb the NLP to process the language understanding when differnet accents are uswed in different languages.
 * Another goal we did not achieve which would be part of future development is that Hal starts listening with the vocal trigger "Hello Hal"
 
 
 **spaCy** 
 As we already explained before spaCy has a wide range of possiilities for NLP and we just used a few of the in our project:
-* If you use all the functions of spaCy, it would be possible for the computer to automatically recognise what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
-* Furthermore it would be possible to understand a wide range of languages. For example Spanish, German, Chinese and 60 more languages are implemented in spaCy. 
+* If you use all the functions of spaCy, it would be possible for the computer to automatically recognize what a sentence or input is about and then automatically give the appropriate answer. Spacy would then function like a chatbot.
+* Furthermore, it would be possible to understand a wide range of languages. For example Spanish, German, Chinese and 60 more languages are implemented in spaCy. 
 
 
 **Implement further libraries** 
 
-* The **PySpark** library is used for machine learning. With the named entity recgnition and the **BERT** language model, which has already been trained with wikipedia articles, you can analyse texts according to structure and content.
+* The **PySpark** library is used for machine learning. With the named entity recgnition and the **BERT** language model, which has already been trained with wikipedia articles, you can analyze texts according to structure and content.
 
 * With the **geturl** library you can open urls in python. 
 
@@ -443,9 +443,11 @@ As we already explained before spaCy has a wide range of possiilities for NLP an
 
 - - - -
 
+Moreover speech recognition assistants are a very important topic in general. We did some research how far the speech recognition technology is in general and considered this cases as very interesting. That's why we also want to share it with you: 
+
 **Voice-Tech (Healthcare):**
 AI-powered chatbots and virtual assistants played a vital role in the fight against COVID-19. So chatbots can help screen and triage patients. Voice and conversational AI have made health services more accessible to everyone who was unable to leave their home during COVID-19 restrictions. Now that patients have a taste for what is possible with voice and healthcare, behaviors are not likely to go back to re-pandemic norms. 
 
 **Voice Cloning:**
-Machine learning tech and GPU power development help to create a custom voice  and make the speech more emotional, which makes this computer-generated voice indistinguishable from the real one. You just use a recorded speech and then a voice conversion technology transforms your voice into another. 
+Machine learning tech and GPU power development help to create a custom voice and make speech more emotional, which makes this computer-generated voice indistinguishable from the real one. You just use a recorded speech and then a voice conversion technology transforms your voice into another. 
 
