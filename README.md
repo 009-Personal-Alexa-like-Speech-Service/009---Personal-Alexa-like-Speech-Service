@@ -88,37 +88,37 @@ On the following illustration the typical phases of the model are shown. It is n
 
 ![Bildschirmfoto 2021-08-13 um 09 02 47](https://user-images.githubusercontent.com/83067079/129317858-ebc68bf6-b046-454f-8780-8782f8b3f1b1.png)
 
-1. Business understanding
+**1. Business understanding
 
 
 In the first step, we defined our goals, requirements and potential success factors for speech recognition. We considered what must be possible in such the application so that it works well for the user and we achieve a satisfactory result in the end.
 
 
-2. Data understanding
+**2. Data understanding
 
 
 We thought about the data we will use and realised that the core of speech recognition is the audio files that are created during the input. We also looked at how audio files work technically and what additional libraries are needed to work with them.
 
 
-3. Data Preparation
+**3. Data Preparation
 
 
 In this step we made sure that the input data is usable for our tool. A speech input is converted into a text which can then be processed. Again, it was necessary to find out which libraries are needed for this.
 
 
-4. Modelling
+**4. Modelling
 
 
 Different recognisers can be used to process the input data, divided into different tasks. For this we used object-oriented programming. 
 
 
-5. Evaluation
+**5. Evaluation
 
 
 In this phase we compared the current state of our work with the initially defined demands and goals. We evaluated how successful the project was, what was achieved and what was not.
 
 
-6. Deployment
+**6. Deployment
 
 
 In the last step we planned the deployment.
