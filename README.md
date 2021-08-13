@@ -232,7 +232,7 @@ While programming, we don't have to worry about that speech recognition process.
 
 * **The complexity of spoken language.** In English, many words have multiple meanings depending on the context – for example “red” and “read” sound exactly the same but have completely different meanings.
 * **People talk fast** – When we speak, we don’t break our sentences up into individual words – we kind of just blurt it all out in one long string of sounds with few breaks. This makes it difficult to determine where a word ends and the next one begins.
-* **Nobody speak in the same way** – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice or different accents and understand it immediately.
+* **Nobody speaks in the same way** – It’s no good to have a system that needs to be reprogrammed for every individual. A system needs to be able to hear a new voice or different accents and understand it immediately.
 * **Background noise** – Differentiating the speech from the background noise is very difficult. This is especially true if the background noise is also speech (say in a class).
 
 
